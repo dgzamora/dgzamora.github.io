@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Diego García-Zamora - UJA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --uja-blue: rgb(87, 110, 48);
+            --accent-gold: #d6d9a9;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        
+        /* Cabecera estilo tcolorbox */
+        header {
+            background-color: var(--uja-blue);
+            color: white;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0 0 20px 20px;
+        }
+
+        /* Menú de navegación (Pestañas) */
+        nav {
+            background: white;
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid var(--accent-gold);
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            padding: 1rem 2rem;
+            text-decoration: none;
+            color: var(--uja-blue);
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover { background: var(--accent-gold); }
+
+        .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
+        
+        /* Cajas de contenido */
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: var(--uja-blue); border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        
+        .tag-box {
+            background: #f9f9f9;
+            border: 1px solid var(--uja-blue);
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Dr. Diego García-Zamora</h1>
+        <p>Profesor Ayudante Doctor</p>
+        <p><i class="fas fa-university"></i> Departamento de Matemáticas | Universidad de Jaén</p>
+    </div>
+    <div style="border: 3px solid var(--accent-gold); border-radius: 50%; overflow: hidden; width: 120px; height: 120px;">
+        <img src="img/perfil.jpg" alt="Foto" style="width: 100%;">
+    </div>
+</header>
+
+<nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#docencia">Docencia</a>
+    <a href="#investigacion">Investigación</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+    <main>
+        <section id="perfil" class="card">
+            <h2><i class="fas fa-user-graduate"></i> Perfil Académico</h2>
+            <p>Doctor en Ciencias de la Computación (Cum Laude). Especializado en modelos inteligentes para la toma de decisiones[cite: 8].</p>
+        </section>
+
+        <section id="docencia" class="card">
+            <h2><i class="fas fa-chalkboard-teacher"></i> Docencia (Curso 25/26)</h2>
+            <ul>
+                <li><strong>Métodos Matemáticos de las Telecomunicaciones</strong></li>
+                <li><strong>Modelos Matemáticos en la Empresa</strong></li>
+            </ul>
+        </section>
+
+        <section id="investigacion" class="card">
+            <h2><i class="fas fa-microscope"></i> Investigación</h2>
+            <div class="tag-box">
+                Lógica Difusa · Optimización · Programación Lineal · Toma de Decisiones [cite: 10]
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <section id="contacto" class="card" style="border: 2px solid var(--accent-gold);">
+            <h2><i class="fas fa-address-card"></i> Contacto</h2>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:dgzamora@ujaen.es">dgzamora@ujaen.es</a></p>
+            <p><i class="fas fa-compass"></i> Despacho D-036 (Linares)</p>
+            <p><i class="fas fa-phone"></i> +34 953648667 [cite: 11]</p>
+        </section>
+    </aside>
+</div>
+
+<footer style="text-align: center; color: gray; padding: 20px;">
+    <hr style="width: 80%; opacity: 0.3;">
+    <p><i>"En matemáticas no entiendes las cosas. Simplemente te acostumbras a ellas."</i></p>
+    <strong>John von Neumann</strong> [cite: 14]
+</footer>
+
+</body>
+</html>
