@@ -151,53 +151,48 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
 
 /* Asegura que el contenedor de BibTeX rompa la fila y se ponga debajo */
 .bibtex-container {
-    margin-left: 0 !important;
-    width: 100% !important;
-    order: 10; /* Lo manda al final de la tarjeta */
     flex-basis: 100% !important; 
+    width: 100% !important;
     box-sizing: border-box !important;
     margin-top: 15px !important;
-    background-color: #f8f9fa !important;
-    border: 1px solid #ddd !important;
+    background-color: #fcfcfc !important; /* Un gris muy claro y limpio */
+    border: 1px solid #ddd !important;    /* El único borde */
     border-radius: 6px !important;
-    padding: 15px !important;
+    padding: 20px 15px 15px 15px !important;
+    position: relative !important;
 }
 
 /* Estilo para que el código sea legible y no deforme nada */
 .bibtex-container pre {
-    background: #f8f9fa;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    color: #333;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
     white-space: pre-wrap !important;
     word-wrap: break-word !important;
-    margin: 0 0 15px 0 !important; /* Espacio para el botón de abajo */
     font-size: 0.85rem !important;
+    color: #333 !important;
 }
 
 /* Botón de copiar integrado */
 .btn-copy {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: var(--accent-gold);
-    font-weight: bold;
-    transition: 0.2s;
     display: inline-block !important;
-    background-color: var(--uja-green, #576e30) !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background-color: var(--uja-blue, #576e30) !important;
     color: white !important;
     border: none !important;
-    padding: 6px 12px !important;
+    padding: 5px 10px !important;
     border-radius: 4px !important;
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
+    font-family: 'Courier New', monospace !important;
     font-weight: bold !important;
     cursor: pointer !important;
+    z-index: 10 !important; /* Asegura que esté por encima de todo */
 }
 
 .btn-copy:hover {
-    background: var(--uja-green);
-    color: white;
     opacity: 0.8 !important;
 }
 
