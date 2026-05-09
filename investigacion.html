@@ -60,21 +60,17 @@ title: Investigación
                         {% endif %}
 
                         {% if pub.bibtex %}
-                            <div id="bib-{{ forloop.index }}" class="bibtex-container" style="display: none;">
-                                <pre>{{ pub.bibtex }}</pre>
-                                <button class="btn-copy" onclick="copyBib('bib-{{ forloop.index }}')">Copiar</button>
-                            </div>
+                            <button onclick="toggleBibtex('bib-{{ bloque.anio }}-{{ forloop.index }}')" class="btn-pub bib" title="Mostrar BibTeX">
+                                <i class="fas fa-quote-right"></i> BibTeX
+                            </button>
                         {% endif %}
                     </div>
                 </div>
 
                 {% if pub.bibtex %}
-                <div id="bib-{{ bloque.anio }}-{{ forloop.index }}" class="bibtex-box" style="display: none;">
-                    <div class="bibtex-header">
-                        <span>Formato BibTeX</span>
-                        <button class="btn-copy-mini" onclick="copyBibtex('pre-{{ bloque.anio }}-{{ forloop.index }}', this)">Copiar</button>
-                    </div>
-                    <pre><code id="pre-{{ bloque.anio }}-{{ forloop.index }}">{{ pub.bibtex }}</code></pre>
+                <div id="bib-{{ forloop.index }}" class="bibtex-container" style="display: none;">
+                    <pre>{{ pub.bibtex }}</pre>
+                    <button class="btn-copy" onclick="copyBib('bib-{{ forloop.index }}')">Copiar</button>
                 </div>
                 {% endif %}
             </div>
