@@ -398,7 +398,7 @@ nav {
 header {
     display: flex;
     justify-content: center; /* Centra todo el bloque en la pantalla */
-    gap: 60px; /* Esto es la separación exacta entre las letras y tu foto. Puedes hacerlo más grande o pequeño */
+    gap: 160px; /* Esto es la separación exacta entre las letras y tu foto. Puedes hacerlo más grande o pequeño */
     align-items: center;
     padding: 40px 20px;
     
