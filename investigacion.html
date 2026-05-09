@@ -68,9 +68,9 @@ title: Investigación
                 </div>
 
                 {% if pub.bibtex %}
-                <div id="bib-{{ forloop.index }}" class="bibtex-container" style="display: none;">
+                <div id="bib-{{ bloque.anio }}-{{ forloop.index }}" class="bibtex-container" style="display: none;">
                     <pre>{{ pub.bibtex }}</pre>
-                    <button class="btn-copy" onclick="copyBib('bib-{{ forloop.index }}')">Copiar</button>
+                    <button class="btn-copy" onclick="copyBib('bib-{{ bloque.anio }}-{{ forloop.index }}')">Copiar</button>
                 </div>
                 {% endif %}
             </div>
