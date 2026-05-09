@@ -112,38 +112,40 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
 }
 
 .btn-pub {
-    text-decoration: none;
+    padding: 5px 12px;
     font-size: 0.85em;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: 0.3s;
-    display: flex;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 500;
+    white-space: nowrap;
+    
+    /* La solución al problema */
+    display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
 }
 
-.btn-pub.doi {
-    color: #bd212f; /* Rojo típico de DOI */
-    border: 1px solid #bd212f;
+.btn-pub.doi { 
+    color: #bd212f; /* Rojo DOI */
+    border: 1px solid #bd212f; 
 }
 
-.btn-pub.oa {
-    color: #2e7d32; /* Verde para Open Access */
-    border: 1px solid #2e7d32;
+.btn-pub.oa { 
+    color: #2e7d32; /* Verde OA */
+    border: 1px solid #2e7d32; 
+}
+
+.btn-pub.bib { 
+    color: #444; 
+    border: 1px solid #444; 
+    background: transparent; 
+    cursor: pointer; 
 }
 
 .btn-pub:hover {
     background: #f8f8f8;
     transform: translateY(-2px);
-}
-/* Estilos del botón BibTeX */
-.btn-pub.bib {
-    color: #444;
-    border: 1px solid #444;
-    background: transparent;
-    cursor: pointer;
-    font-family: inherit;
 }
 
 /* Estilos del cuadro de código */
