@@ -19,6 +19,7 @@ title: Docencia
             {% for item in bloque.meritos %}
             <div class="pub-card">
                 <div class="pub-info-row">
+                    
                     <div class="pub-content-text">
                         <span class="pub-type-icon">
                             {% if item.tipo == "oficial" %}<i class="fas fa-university"></i>
@@ -27,7 +28,7 @@ title: Docencia
                             {% elsif item.tipo == "tfg" %}<i class="fas fa-user-graduate"></i>
                             {% else %}<i class="fas fa-chalkboard"></i>{% endif %}
                         </span>
-
+                        
                         <div class="pub-reference">
                             <strong>{{ item.titulo }}</strong>
                             <p class="pub-description">{{ item.subtitulo }}</p>
@@ -37,16 +38,17 @@ title: Docencia
 
                     <div class="pub-actions-btns">
                         {% if item.guia and item.guia != "" %}
-                            <a href="{{ item.guia }}" target="_blank" class="btn-pub oa" title="Guía Docente">
+                            <a href="{{ item.guia }}" target="_blank" class="btn-pub oa">
                                 <i class="fas fa-book-open"></i> Guía
                             </a>
                         {% endif %}
                         {% if item.materiales and item.materiales != "" %}
-                            <a href="{{ item.materiales }}" target="_blank" class="btn-pub bib" title="Materiales">
+                            <a href="{{ item.materiales }}" target="_blank" class="btn-pub bib">
                                 <i class="fas fa-file-download"></i> Materiales
                             </a>
                         {% endif %}
                     </div>
+
                 </div>
             </div>
             {% endfor %}
