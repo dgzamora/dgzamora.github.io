@@ -60,9 +60,10 @@ title: Investigación
                         {% endif %}
 
                         {% if pub.bibtex %}
-                            <button onclick="toggleBibtex('bib-{{ bloque.anio }}-{{ forloop.index }}')" class="btn-pub bib" title="Mostrar BibTeX">
-                                <i class="fas fa-quote-right"></i> BibTeX
-                            </button>
+                            <div id="bib-{{ forloop.index }}" class="bibtex-container" style="display: none;">
+                                <pre>{{ pub.bibtex }}</pre>
+                                <button class="btn-copy" onclick="copyBib('bib-{{ forloop.index }}')">Copiar</button>
+                            </div>
                         {% endif %}
                     </div>
                 </div>

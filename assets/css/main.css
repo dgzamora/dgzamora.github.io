@@ -148,21 +148,25 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     transform: translateY(-2px);
 }
 
-/* Estilos del cuadro de código */
+/* Asegura que el contenedor de BibTeX rompa la fila y se ponga debajo */
 .bibtex-container {
-    background: #f8f9fa;
-    border-left: 4px solid var(--uja-green);
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 0 5px 5px 0;
-    position: relative;
+    flex-basis: 100% !important; /* Fuerza a que ocupe toda la línea inferior */
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    order: 10; /* Lo manda al final de la tarjeta */
 }
 
+/* Estilo para que el código sea legible y no deforme nada */
 .bibtex-container pre {
-    margin: 0;
-    white-space: pre-wrap; /* Para que el código no se salga de la pantalla */
-    font-size: 0.85em;
+    white-space: pre-wrap !important; /* Ajusta el texto si es muy largo */
+    word-wrap: break-word !important;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 0.85rem;
     color: #333;
 }
 
