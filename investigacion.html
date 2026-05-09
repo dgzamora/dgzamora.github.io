@@ -17,48 +17,55 @@ title: Investigación
 
         <div class="subjects-container">
             {% for pub in bloque.publicaciones %}
-            <div class="pub-card">
-                <div class="pub-reference">
-                    <i class="fas fa-circle" style="font-size: 0.5em; vertical-align: middle; margin-right: 10px; color: var(--accent-gold);"></i>
-                    {{ pub.autores }} ({{ bloque.anio }}). 
-                    "{{ pub.titulo }}". 
-                    {% if pub.tipo == "artículo" %}
-                        <i>{{ pub.revista }}</i>, {{ pub.volumen }}({{ pub.numero }}), pp. {{ pub.paginas }}.
-                    {% elsif pub.tipo == "congreso" %}
-                        En <i>{{ pub.congreso }}</i>. {{ pub.ciudad }}.
-                    {% elsif pub.tipo == "capítulo" %}
-                        En: <i>{{ pub.libro }}</i>. {{ pub.editorial }}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
-                    {% else %}
-                        <i>{{ pub.revista }}</i>.
-                    {% endif %}
-                    
-                    <span class="pub-badge">{{ pub.tipo | capitalize }}</span>
+            <div class="pub-card-wrapper"> <div class="pub-info-row">
+                    <div class="pub-content-text">
+                        <i class="fas fa-circle" style="font-size: 0.5em; vertical-align: middle; margin-right: 10px; color: var(--accent-gold);"></i>
+                        <strong>{{ pub.autores }}</strong> ({{ bloque.anio }}). 
+                        "{{ pub.titulo }}". 
+                        {% if pub.tipo == "artículo" %}
+                            <i>{{ pub.revista }}</i>{% if pub.volumen %}, {{ pub.volumen }}{% endif %}{% if pub.numero %}({{ pub.numero }}){% endif %}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
+                        {% elsif pub.tipo == "congreso" %}
+                            En <i>{{ pub.evento }}</i>. {{ pub.lugar }}.
+                        {% elsif pub.tipo == "capítulo" %}
+                            En: <i>{{ pub.libro }}</i>. {{ pub.editorial }}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
+                        {% endif %}
+                        
+                        <div class="pub-badges-row">
+                            <span class="pub-badge-type">{{ pub.tipo | capitalize }}</span>
+                            {% if pub.impacto %}<span class="pub-badge-impact">{{ pub.impacto }}</span>{% endif %}
+                        </div>
+                    </div>
+
+                    <div class="pub-actions-btns">
+                        {% if pub.doi and pub.doi != "" %}
+                            <a href="{{ pub.doi }}" target="_blank" class="btn-pub doi" title="Ver DOI">
+                                <i class="fas fa-link"></i> DOI
+                            </a>
+                        {% endif %}
+                        
+                        {% if pub.oa and pub.oa != "" %}
+                            <a href="{{ pub.oa }}" target="_blank" class="btn-pub oa" title="Open Access">
+                                <i class="fas fa-unlock-alt"></i> OA
+                            </a>
+                        {% endif %}
+
+                        {% if pub.bibtex %}
+                            <button onclick="toggleBibtex('bib-{{ bloque.anio }}-{{ forloop.index }}')" class="btn-pub bib" title="Mostrar BibTeX">
+                                <i class="fas fa-quote-right"></i> BibTeX
+                            </button>
+                        {% endif %}
+                    </div>
                 </div>
 
-                <div class="pub-links">
-                    {% if pub.doi != "" %}
-                        <a href="{{ pub.doi }}" class="btn-pub doi" title="Ver DOI">
-                            <i class="ai ai-doi"></i> DOI
-                        </a>
-                    {% endif %}
-                    
-                    {% if pub.oa != "" %}
-                        <a href="{{ pub.oa }}" class="btn-pub oa" title="Open Access">
-                            <i class="fas fa-unlock-alt"></i> OA
-                        </a>
-                    {% endif %}
-                    {% if pub.bibtex %}
-                        <button onclick="toggleBibtex('bib-{{ forloop.parentloop.index }}-{{ forloop.index }}')" class="btn-pub bib" title="Mostrar BibTeX">
-                            <i class="fas fa-quote-right"></i> BibTeX
-                        </button>
-                    {% endif %}
-                </div>
                 {% if pub.bibtex %}
-            <div id="bib-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="bibtex-container" style="display: none;">
-                <button class="btn-copy" onclick="copyBibtex('pre-{{ forloop.parentloop.index }}-{{ forloop.index }}', this)">Copiar</button>
-                <pre><code id="pre-{{ forloop.parentloop.index }}-{{ forloop.index }}">{{ pub.bibtex }}</code></pre>
-            </div>
-            {% endif %}
+                <div id="bib-{{ bloque.anio }}-{{ forloop.index }}" class="bibtex-box" style="display: none;">
+                    <div class="bibtex-header">
+                        <span>Formato BibTeX</span>
+                        <button class="btn-copy-mini" onclick="copyBibtex('pre-{{ bloque.anio }}-{{ forloop.index }}', this)">Copiar</button>
+                    </div>
+                    <pre><code id="pre-{{ bloque.anio }}-{{ forloop.index }}">{{ pub.bibtex }}</code></pre>
+                </div>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

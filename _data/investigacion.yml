@@ -64,6 +64,33 @@
           year={2025},
           doi={10.1016/j.eswa.2024.125367}
         }
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Bapi Dutta, Jose Rui Figueira, Luis Martinez"
+      titulo: "The Deck of Cards Method for Constructing Trapezoidal Fuzzy Numbers"
+      evento: "2025 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2025)"
+      lugar: "Reims, France"
+      doi: "https://doi.org/10.1109/FUZZ62266.2025.11197683"
+      bibtex: |
+        @inproceedings{garcia2025deck_fuzz,
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Figueira, Jose Rui and Martinez, Luis},
+          booktitle={2025 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2025)}, 
+          title={The Deck of Cards Method for Constructing Trapezoidal Fuzzy Numbers}, 
+          year={2025},
+          doi={10.1109/FUZZ62266.2025.11197683}
+        }
+
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Bapi Dutta, Jose Rui Figueira, Luis Martinez"
+      titulo: "Construyendo Conjuntos Difusos Personalizados mediante el Método de la Baraja de Cartas"
+      evento: "XXIII Congreso Español sobre Tecnologías y Lógica Fuzzy (ESTYLF 2025)"
+      lugar: "Costa Ballena, Cádiz, Spain"
+      bibtex: |
+        @inproceedings{garcia2025construyendo,
+          title={Construyendo Conjuntos Difusos Personalizados mediante el M{\'e}todo de la Baraja de Cartas},
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Figueira, Jose Rui and Martinez, Luis},
+          booktitle={XXIII Congreso Espa{\~n}ol sobre Tecnolog{\'\i}as y L{\'o}gica Fuzzy (ESTYLF 2025)},
+          year={2025}
+        }
 
     - tipo: "artículo"
       autores: "Diego García-Zamora, Bapi Dutta, LeSheng Jin, Zhen-Song Chen, Luis Martínez"
@@ -190,7 +217,44 @@
           year={2024},
           doi={10.1016/j.eswa.2023.122555}
         }
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Bapi Dutta, José Rui Figueira, Luis Martínez"
+      titulo: "Deck-of-Card-based Membership Functions: A Socio-Technical Approach"
+      evento: "20th International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU 2024)"
+      lugar: "Lisbon, Portugal"
+      bibtex: |
+        @inproceedings{garcia2024deck_ipmu,
+          title={Deck-of-Card-based Membership Functions: A Socio-Technical Approach},
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Figueira, Jos{\'e} Rui and Mart{\'\i}nez, Luis},
+          booktitle={20th International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU 2024)},
+          year={2024}
+        }
 
+    - tipo: "congreso"
+      autores: "Shifan He, Xiaohong Pan, Diego García Zamora, Suhui Wang and Luis Martínez"
+      titulo: "A novel online reviews-driven Multi-Criteria Decision Making approach considering missing information"
+      evento: "16th International FLINS Conference / 19th ISKE Conference (FLINS/ISKE 2024)"
+      lugar: "Madrid, Spain"
+      bibtex: |
+        @inproceedings{he2024novel_flins,
+          title={A novel online reviews-driven Multi-Criteria Decision Making approach considering missing information},
+          author={He, Shifan and Pan, Xiaohong and Garc{\'\i}a Zamora, Diego and Wang, Suhui and Mart{\'\i}nez, Luis},
+          booktitle={16th International FLINS Conference / 19th ISKE Conference (FLINS/ISKE 2024)},
+          year={2024}
+        }
+
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Álvaro Labella, Bapi Dutta and Luis Martínez"
+      titulo: "Reformulating Minimum Cost Consensus Models Using Fuzzy Sets"
+      evento: "16th International FLINS Conference / 19th ISKE Conference (FLINS/ISKE 2024)"
+      lugar: "Madrid, Spain"
+      bibtex: |
+        @inproceedings{garcia2024reformulating,
+          title={Reformulating Minimum Cost Consensus Models Using Fuzzy Sets},
+          author={Garc{\'\i}a-Zamora, Diego and Labella, {\'A}lvaro and Dutta, Bapi and Mart{\'\i}nez, Luis},
+          booktitle={16th International FLINS Conference / 19th ISKE Conference (FLINS/ISKE 2024)},
+          year={2024}
+        }
     - tipo: "artículo"
       autores: "Diego García-Zamora, Anderson Cruz, Fernando Neres, Regivan H.N. Santiago, Antonio F. Roldán López de Hierro, Rui Paiva, Graçaliz. P. Dimuro, Luis Martínez, Benjamín Bedregal, Humberto Bustince"
       titulo: "Admissible OWA Operators for Fuzzy Numbers"
@@ -392,7 +456,83 @@
           publisher={Chapman and Hall/CRC},
           doi={10.1201/9781003340621-6}
         }
+    - tipo: "congreso"
+      autores: "A. Labella, D. García-Zamora, R. M. Rodríguez and L. Martínez"
+      titulo: "Selection of Circular Economy Indicators through a Large-scale Comprehensive Minimum Cost Consensus Model"
+      evento: "EUSFLAT 2023 & AGOP 2023"
+      lugar: "Palma, Spain"
+      bibtex: |
+        @inproceedings{labella2023selection,
+          title={Selection of Circular Economy Indicators through a Large-scale Comprehensive Minimum Cost Consensus Model},
+          author={Labella, {\'A}. and Garc{\'\i}a-Zamora, D. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={13th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT 2023)},
+          year={2023}
+        }
 
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "A metric to evaluate linguistic consensus-reaching processes"
+      evento: "EUSFLAT 2023 & AGOP 2023"
+      lugar: "Palma, Spain"
+      bibtex: |
+        @inproceedings{garcia2023metric,
+          title={A metric to evaluate linguistic consensus-reaching processes},
+          author={Garc{\'\i}a-Zamora, D. and Labella, {\'A}. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={13th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT 2023)},
+          year={2023}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "A Framework for the Selection of Indicators through Fuzzy Thresholds: A Circular Economy Application"
+      evento: "18th International Conference on Intelligent Systems and Knowledge Engineering (ISKE 2023)"
+      lugar: "Fuzhou, China"
+      bibtex: |
+        @inproceedings{garcia2023framework,
+          title={A Framework for the Selection of Indicators through Fuzzy Thresholds: A Circular Economy Application},
+          author={Garc{\'\i}a-Zamora, D. and Labella, {\'A}. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={The 18th International Conference on Intelligent Systems and Knowledge Engineering (ISKE 2023)},
+          year={2023}
+        }
+
+    - tipo: "congreso"
+      autores: "A. Labella, D. García-Zamora, R. M. Rodríguez and L. Martínez"
+      titulo: "An Automatic Linguistic Consensus Model for Sustainability"
+      evento: "18th International Conference on Intelligent Systems and Knowledge Engineering (ISKE 2023)"
+      lugar: "Fuzhou, China"
+      bibtex: |
+        @inproceedings{labella2023automatic,
+          title={An Automatic Linguistic Consensus Model for Sustainability},
+          author={Labella, {\'A}. and Garc{\'\i}a-Zamora, D. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={The 18th International Conference on Intelligent Systems and Knowledge Engineering (ISKE 2023)},
+          year={2023}
+        }
+
+    - tipo: "congreso"
+      autores: "B. Dutta, D. García-Zamora, A. Labella, and L. Martínez"
+      titulo: "Which Prioritization Method is Better for Deriving Priority from Best-Worst Preferences? A Theoretical and Experimental Analysis"
+      evento: "Fourth International Workshop on Best-Worst Method (BWM-2023)"
+      lugar: "Delft, The Netherlands"
+      bibtex: |
+        @inproceedings{dutta2023prioritization,
+          title={Which Prioritization Method is Better for Deriving Priority from Best-Worst Preferences? A Theoretical and Experimental Analysis},
+          author={Dutta, B. and Garc{\'\i}a-Zamora, D. and Labella, A. and Mart{\'\i}nez, L.},
+          booktitle={The Fourth International Workshop on Best-Worst Method (BWM-2023)},
+          year={2023}
+        }
+
+    - tipo: "congreso"
+      autores: "B. Dutta, D. García-Zamora, R. Rodriguez, A. Labella"
+      titulo: "Keynote: Prescriptive Analytics for Decision-making using Fuzzy Logic"
+      evento: "International Workshop on Artificial Intelligence and Analytics (Eureka 2023)"
+      lugar: "Jaén, Spain"
+      bibtex: |
+        @misc{dutta2023keynote,
+          title={Keynote: Prescriptive Analytics for Decision-making using Fuzzy Logic},
+          author={Dutta, B. and Garc{\'\i}a-Zamora, D. and Rodriguez, R. and Labella, A.},
+          howpublished={International Workshop on Artificial Intelligence and Analytics (Eureka 2023)},
+          year={2023}
+        }
     - tipo: "capítulo"
       autores: "X. Pan, S. He, D. García-Zamora, and L. Martínez"
       titulo: "Interval Type-2 Fuzzy Decision Analysis Framework Based on Online Textual Reviews"
@@ -594,7 +734,122 @@
           year={2022},
           doi={10.1016/j.ejor.2022.08.015}
         }
+    - tipo: "congreso"
+      autores: "Labella, Á., García-Zamora, D., Rodríguez, R.M., Martínez, L."
+      titulo: "Fuzzy TODIM for ELICIT Information"
+      evento: "International Conference on Intelligent and Fuzzy Systems (INFUS 2022)"
+      lugar: "Istanbul, Turkey"
+      doi: "https://doi.org/10.1007/978-3-031-09173-5_48"
+      bibtex: |
+        @inproceedings{labella2022fuzzy,
+          title={Fuzzy TODIM for ELICIT Information},
+          author={Labella, {\'A}. and Garc{\'\i}a-Zamora, D. and Rodr{\'\i}guez, R.M. and Mart{\'\i}nez, L.},
+          booktitle={International Conference on Intelligent and Fuzzy Systems (INFUS 2022)},
+          pages={398--405},
+          year={2022},
+          doi={10.1007/978-3-031-09173-5_48}
+        }
 
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Comprehensive Minimum Cost Consensus Models for ELICIT Information"
+      evento: "2022 World Congress on Computational Intelligence (IEEE WCCI 2022)"
+      lugar: "Padua, Italy"
+      doi: "https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882691"
+      bibtex: |
+        @inproceedings{garcia2022comprehensive,
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={2022 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
+          title={Comprehensive Minimum Cost Consensus Models for ELICIT Information}, 
+          year={2022},
+          doi={10.1109/FUZZ-IEEE55066.2022.9882691}
+        }
+
+    - tipo: "congreso"
+      autores: "A. Labella, D. García-Zamora, R. M. Rodríguez and L. Martínez"
+      titulo: "A Consensus-based Best-Worst Method for Multi-criteria Group Decision-Making"
+      evento: "The Third International Workshop on Best-Worst Method (BWM-2022)"
+      lugar: "Delft, The Netherlands"
+      doi: "https://doi.org/10.1007/978-3-031-24816-0_5"
+      bibtex: |
+        @inproceedings{labella2022consensus,
+          title={A Consensus-based Best-Worst Method for Multi-criteria Group Decision-Making},
+          author={Labella, A. and Garc{\'\i}a-Zamora, D. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={The Third International Workshop on Best-Worst Method (BWM-2022)},
+          year={2022},
+          doi={10.1007/978-3-031-24816-0_5}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Comprehensive Minimum Cost Consensus for Analyzing the Cost of Different Agreed Solutions"
+      evento: "15th International FLINS Conference / 17th ISKE Conference (FLINS/ISKE 2022)"
+      lugar: "Tianjin, China"
+      doi: "https://doi.org/10.1142/9789811269264_0042"
+      bibtex: |
+        @inproceedings{garcia2022comprehensive_flins,
+          title={Comprehensive Minimum Cost Consensus for Analyzing the Cost of Different Agreed Solutions},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={15th International FLINS Conference / 17th ISKE Conference (FLINS/ISKE 2022)},
+          year={2022},
+          doi={10.1142/9789811269264_0042}
+        }
+
+    - tipo: "congreso"
+      autores: "J. Baz, D. García-Zamora, I. Díaz, S. Montes, L. Martínez"
+      titulo: "Flexible-Dimensional EVR-OWA as Mean Estimator for Symmetric Distributions"
+      evento: "19th International Conference On IPMU 2022"
+      lugar: "Milan, Italy"
+      doi: "https://doi.org/10.1007/978-3-031-08971-8_2"
+      bibtex: |
+        @inproceedings{baz2022flexible,
+          title={Flexible-Dimensional EVR-OWA as Mean Estimator for Symmetric Distributions},
+          author={Baz, J. and Garc{\'\i}a-Zamora, D. and D{\'\i}az, I. and Montes, S. and Mart{\'\i}nez, L.},
+          booktitle={Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU 2022)},
+          year={2022},
+          doi={10.1007/978-3-031-08971-8_2}
+        }
+
+    - tipo: "congreso"
+      autores: "Labella, Á., García-Zamora, D., He, W., Rodríguez, R.M., Martínez, L."
+      titulo: "Grouping representative points in AHP-FuzzySort with agglomerative hierarchical clustering"
+      evento: "International Symposium on the Analytic Hierarchy Process (ISAHP 2022)"
+      lugar: "Online"
+      doi: "http://dx.doi.org/10.13033/isahp.y2022.045"
+      bibtex: |
+        @inproceedings{labella2022grouping,
+          title={Grouping representative points in AHP-FuzzySort with agglomerative hierarchical clustering},
+          author={Labella, {\'A}. and Garc{\'\i}a-Zamora, D. and He, W. and Rodr{\'\i}guez, R.M. and Mart{\'\i}nez, L.},
+          booktitle={The International Symposium on the Analytic Hierarchy Process (ISAHP 2022)},
+          year={2022},
+          doi={10.13033/isahp.y2022.045}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, P. Nuñez-Cacho, R. M. Rodríguez and L. Martínez"
+      titulo: "Modelos de consenso basados en Mínimo Coste para expresiones ELICIT"
+      evento: "XXI Congreso Español sobre Tecnologías y Lógica Fuzzy (ESTYLF 2022)"
+      lugar: "Toledo, Spain"
+      bibtex: |
+        @inproceedings{garcia2022modelos,
+          title={Modelos de consenso basados en M{\'i}nimo Coste para expresiones ELICIT},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Nu{\~n}ez-Cacho, P. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={XXI Congreso Espa{\~n}ol sobre Tecnolog{\'\i}as y L{\'o}gica Fuzzy (ESTYLF 2022)},
+          year={2022}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Nonlinear Preferences in Consensus Reaching Processes. Extreme Values Amplifications"
+      evento: "XXI Congreso Español sobre Tecnologías y Lógica Fuzzy (ESTYLF 2022)"
+      lugar: "Toledo, Spain"
+      bibtex: |
+        @inproceedings{garcia2022nonlinear_estylf,
+          title={Nonlinear Preferences in Consensus Reaching Processes. Extreme Values Amplifications},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={XXI Congreso Espa{\~n}ol sobre Tecnolog{\'\i}as y L{\'o}gica Fuzzy (ESTYLF 2022)},
+          year={2022}
+        }
     - tipo: "artículo"
       autores: "Y.-M. Wang, X. -H. Pan, S. -F. He, B. Dutta, D. García-Zamora and L. Martínez"
       titulo: "A New Decision-Making Framework for Site Selection of Electric Vehicle Charging Station with Heterogeneous Information and Multi-Granular Linguistic Terms"
@@ -697,4 +952,57 @@
           pages={6581--6612},
           year={2021},
           doi={10.1002/int.22561}
+        }
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Non Linear Scales in GDM: Extreme Values Amplifications"
+      evento: "International Virtual Workshop on Business Analytics Eureka 2021"
+      lugar: "Ciudad Juarez, Mexico (Virtual)"
+      bibtex: |
+        @inproceedings{garcia2021nonlinear_eureka,
+          title={Non Linear Scales in GDM: Extreme Values Amplifications},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={International Virtual Workshop on Business Analytics Eureka 2021},
+          year={2021}
+        }
+
+    - tipo: "congreso"
+      autores: "A. Labella, D. García-Zamora, R. M. Rodríguez and L. Martínez"
+      titulo: "A Novel Linguistic Cohesion Measure based on Restricted Equivalence Functions for Weighting Experts’ subgroups in Large-scale Group Decision Making Problems"
+      evento: "International Virtual Workshop on Business Analytics Eureka 2021"
+      lugar: "Ciudad Juarez, Mexico (Virtual)"
+      bibtex: |
+        @inproceedings{labella2021novel,
+          title={A Novel Linguistic Cohesion Measure based on Restricted Equivalence Functions for Weighting Experts' subgroups in Large-scale Group Decision Making Problems},
+          author={Labella, A. and Garc{\'\i}a-Zamora, D. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={International Virtual Workshop on Business Analytics Eureka 2021},
+          year={2021}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Preferencias no lineales en Toma de Decisión en Grupo. Amplificación de Valores Extremos"
+      evento: "CEDI 20/21: VI Congreso Español de Informática"
+      lugar: "Málaga, Spain"
+      bibtex: |
+        @inproceedings{garcia2021preferencias,
+          title={Preferencias no lineales en Toma de Decisi{\'o}n en Grupo. Amplificaci{\'o}n de Valores Extremos},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={VI Congreso Espa{\~n}ol de Inform{\'a}tica (CEDI 20/21)},
+          year={2021}
+        }
+
+    - tipo: "congreso"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "An Ordered Weighted Averaging Operator based on Extreme Values Reductions"
+      evento: "IFSA-EUSFLAT-AGOP-IJCRS-FQAS 2021"
+      lugar: "Bratislava, Slovakia"
+      doi: "https://doi.org/10.2991/asum.k.210827.039"
+      bibtex: |
+        @inproceedings{garcia2021ordered,
+          title={An Ordered Weighted Averaging Operator based on Extreme Values Reductions},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={The 19th World Congress of the International Fuzzy Systems Association (IFSA 2021)},
+          year={2021},
+          doi={10.2991/asum.k.210827.039}
         }

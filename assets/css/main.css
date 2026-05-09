@@ -1,26 +1,129 @@
+/* --- VARIABLES Y GENERALES --- */
+:root { 
+    --uja-blue: rgb(87, 110, 48); 
+    --accent-gold: #d6d9a9; 
+}
 
-/* Aquí ya tendrás tus colores de la UJA y estilos generales */
-:root { --uja-blue: rgb(87, 110, 48); --accent-gold: #d6d9a9; }
+/* --- ESTRUCTURA DE PUBLICACIONES (SOLUCIÓN AL SOLAPAMIENTO) --- */
+.pub-card {
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column; /* Por defecto para móvil: todo hacia abajo */
+    gap: 15px;
+    background: #fff;
+    transition: background 0.3s;
+}
 
-body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
-        header { background-color: var(--uja-blue); color: white; padding: 2rem; display: flex; justify-content: space-between; align-items: center; border-radius: 0 0 20px 20px; }
-        nav { background: white; display: flex; justify-content: center; border-bottom: 2px solid var(--accent-gold); position: sticky; top: 0; }
-        nav a { padding: 1rem 2rem; text-decoration: none; color: var(--uja-blue); font-weight: bold; }
-        .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
-        /* Cajas de contenido */
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        h2 { color: var(--uja-blue); border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        
-        .tag-box {
-            background: #f9f9f9;
-            border: 1px solid var(--uja-blue);
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-            font-style: italic;
-        }
+.pub-card:hover { background: #fafafa; }
 
-/* Estilo del Desplegable */
+/* En pantallas de más de 768px (ordenador), el texto y los botones se ponen en fila */
+@media (min-width: 768px) {
+    .pub-card {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+/* El bloque del texto */
+.pub-reference {
+    flex: 1; /* Esto hace que el texto ocupe todo el espacio sobrante */
+    line-height: 1.6;
+    color: #333;
+    padding-left: 0; /* Limpiamos los rellenos que pusimos antes */
+    margin: 0;
+    border-left: none; 
+    background-color: transparent;
+}
+
+/* El bloque de los enlaces/botones */
+.pub-links {
+    display: flex;
+    flex-wrap: wrap; /* Si hay muchos botones, bajan de línea solos */
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+    .pub-links {
+        justify-content: flex-end;
+        min-width: 200px; /* Espacio reservado para botones en escritorio */
+    }
+}
+
+/* --- BOTONES --- */
+.btn-pub {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    transition: 0.2s all ease;
+    white-space: nowrap;
+}
+
+.btn-pub.doi { color: #bd212f; border: 1px solid #bd212f; }
+.btn-pub.oa { color: #2e7d32; border: 1px solid #2e7d32; }
+.btn-pub.bib { color: #444; border: 1px solid #444; background: transparent; cursor: pointer; }
+
+.btn-pub:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- BADGES --- */
+.pub-badge {
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 2px 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    color: #495057;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* --- CUADRO BIBTEX --- */
+.bibtex-container {
+    background: #2d2d2d; /* Color oscuro profesional */
+    color: #f8f8f2;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bibtex-container pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-size: 0.85em;
+    font-family: 'Courier New', monospace;
+}
+
+.btn-copy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--accent-gold);
+    color: var(--uja-blue);
+    border: none;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* --- DESPLEGABLES (Mantenemos tus estilos de Año) --- */
 .academic-year-dropdown {
     background: white;
     margin-bottom: 15px;
@@ -36,150 +139,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     padding: 15px 20px;
     font-weight: bold;
     cursor: pointer;
-    list-style: none; /* Quita la flecha por defecto */
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.year-header::-webkit-details-marker { display: none; } /* Quita flecha en Safari */
-
-.subjects-container {
-    padding: 10px 20px;
-    background: #fdfdfd;
-}
-
-/* El "Entorno Asignatura" */
-.subject-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px dashed var(--accent-gold);
-}
-
-.subject-card:last-child { border-bottom: none; }
-
-.subject-details { display: flex; align-items: center; gap: 15px; }
-
-.subject-icon { color: var(--uja-blue); font-size: 1.2em; width: 25px; }
-
-.subject-name { font-weight: bold; display: block; color: #333; }
-
-.subject-code { font-size: 0.85em; color: #666; }
-
-.btn-icon { color: var(--uja-blue); font-size: 1.3em; margin-left: 10px; transition: 0.2s; }
-.btn-icon:hover { color: var(--accent-gold); }
-
-/* Animación de la flecha */
-.academic-year-dropdown[open] .arrow { transform: rotate(180deg); }
-.arrow { transition: transform 0.3s; }
-
-/* Estilo para las publicaciones */
-.pub-card {
-    padding: 15px 0;
-    border-bottom: 1px solid #f0f0f0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.pub-reference {
-    font-size: 0.95em;
-    line-height: 1.5;
-    color: #444;
-    position: relative;
-}
-
-.pub-badge {
-    display: inline-block;
-    font-size: 0.7em;
-    padding: 2px 8px;
-    background: #f0f0f0;
-    border-radius: 10px;
-    color: #666;
-    margin-left: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.pub-links {
-    display: flex;
-    gap: 10px;
-    min-width: 120px;
-    justify-content: flex-end;
-}
-
-.btn-pub {
-    text-decoration: none;
-    font-size: 0.85em;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.btn-pub.doi {
-    color: #bd212f; /* Rojo típico de DOI */
-    border: 1px solid #bd212f;
-}
-
-.btn-pub.oa {
-    color: #2e7d32; /* Verde para Open Access */
-    border: 1px solid #2e7d32;
-}
-
-.btn-pub:hover {
-    background: #f8f8f8;
-    transform: translateY(-2px);
-}
-/* Estilos del botón BibTeX */
-.btn-pub.bib {
-    color: #444;
-    border: 1px solid #444;
-    background: transparent;
-    cursor: pointer;
-    font-family: inherit;
-}
-
-/* Estilos del cuadro de código */
-.bibtex-container {
-    background: #f8f9fa;
-    border-left: 4px solid var(--uja-blue);
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 0 5px 5px 0;
-    position: relative;
-}
-
-.bibtex-container pre {
-    margin: 0;
-    white-space: pre-wrap; /* Para que el código no se salga de la pantalla */
-    font-size: 0.85em;
-    color: #333;
-}
-
-/* Botón de copiar integrado */
-.btn-copy {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: var(--accent-gold);
-    color: var(--uja-blue);
-    border: none;
-    padding: 5px 10px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.btn-copy:hover {
-    background: var(--uja-blue);
-    color: white;
 }
