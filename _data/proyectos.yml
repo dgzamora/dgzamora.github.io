@@ -1,0 +1,43 @@
+- anio: 2024
+  items:
+    - tipo: "proyecto"
+      titulo: "IA-GDM: Inteligencia Artificial aplicada a la Toma de Decisión en Grupo"
+      entidad: "Ministerio de Ciencia e Innovación"
+      descripcion: "Investigador principal en el desarrollo de nuevos modelos de consenso."
+      multimedia: "https://tu-enlace-al-proyecto.com"
+    - tipo: "premio"
+      titulo: "Premio al mejor expediente de Doctorado"
+      entidad: "Universidad de Jaén"
+      descripcion: "Reconocimiento a la trayectoria académica durante el periodo 2020-2024."
+
+- anio: 2023
+  items:
+    - tipo: "ayuda"
+      titulo: "Beca de movilidad internacional José Castillejo"
+      entidad: "Ministerio de Universidades"
+      descripcion: "Estancia de investigación en la Universidad de Delft, Países Bajos."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

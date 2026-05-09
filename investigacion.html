@@ -71,4 +71,51 @@ title: Investigación
         </div>
     </details>
     {% endfor %}
+
+
+
+
+    <section class="section-title" style="margin-top: 50px;">
+    <h2><i class="fas fa-trophy"></i> Proyectos, Ayudas y Premios</h2>
+    </section>
+
+{% for bloque in site.data.proyectos %}
+<details class="academic-year-dropdown" {% if forloop.first %}open{% endif %}>
+    <summary class="year-header">
+        Año {{ bloque.anio }}
+        <i class="fas fa-chevron-down arrow"></i>
+    </summary>
+
+    <div class="subjects-container">
+        {% for item in bloque.items %}
+        <div class="pub-card">
+            <div class="pub-reference">
+                <span class="pub-icon" style="margin-right: 10px; color: var(--uja-blue);">
+                    {% if item.tipo == "proyecto" %}<i class="fas fa-project-diagram"></i>
+                    {% elsif item.tipo == "premio" %}<i class="fas fa-medal"></i>
+                    {% else %}<i class="fas fa-hand-holding-usd"></i>{% endif %}
+                </span>
+                
+                <strong>{{ item.titulo }}</strong>. 
+                <span style="color: #666;">{{ item.entidad }}</span>.
+                
+                <p style="margin: 8px 0 0 35px; font-size: 0.95rem; color: #555;">{{ item.descripcion }}</p>
+                
+                <div class="pub-badges-row" style="margin-left: 35px;">
+                    <span class="pub-badge-type">{{ item.tipo | capitalize }}</span>
+                </div>
+            </div>
+
+            {% if item.multimedia %}
+            <div class="pub-links">
+                <a href="{{ item.multimedia }}" target="_blank" class="btn-pub doi" title="Ver contenido">
+                    <i class="fas fa-play-circle"></i> Multimedia
+                </a>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</details>
+{% endfor %}
 </main>
