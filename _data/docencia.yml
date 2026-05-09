@@ -7,6 +7,18 @@ trayectoria:
         etiqueta: "Docencia No Universitaria"
         guia: ""
         materiales: "https://hdl.handle.net/10953.1/26766"
+      - titulo: "Métodos Matemáticos de las Telecomunicaciones"
+        subtitulo: "Grado en Ingeniería de Tecnologías de Telecomunicación"
+        tipo: "oficial"
+        etiqueta: "Docencia Universitaria"
+        guia: "https://hdl.handle.net/10953.1/28302"
+        materiales: "https://hdl.handle.net/10953.1/27801"
+      - titulo: "Modelos Matemáticos en la Empresa"
+        subtitulo: "Grado en Estadística y Empresa"
+        tipo: "oficial"
+        etiqueta: "Docencia Universitaria"
+        guia: "https://hdl.handle.net/10953.1/21961"
+        materiales: "https://hdl.handle.net/10953.1/28936"
 
   - anio: "2024-2025"
     meritos:
