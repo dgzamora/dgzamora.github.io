@@ -128,3 +128,37 @@ title: Investigación
 </details>
 {% endfor %}
 </main>
+<script>
+function toggleBibtex(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "none" || element.style.display === "") {
+        element.style.display = "block";
+    } else {
+        element.style.display = "none";
+    }
+}
+
+function copyBib(id) {
+    // 1. Buscamos el elemento que tiene el texto
+    var textElement = document.getElementById(id);
+    if (!textElement) return;
+
+    var text = textElement.innerText;
+
+    // 2. Usamos la API del portapapeles
+    navigator.clipboard.writeText(text).then(function() {
+        // Opcional: Cambiar el texto del botón temporalmente para dar feedback
+        const btn = event.target.closest('.btn-copy');
+        const originalHTML = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
+        btn.style.backgroundColor = "#2e7d32"; // Cambia a verde
+        
+        setTimeout(function() {
+            btn.innerHTML = originalHTML;
+            btn.style.backgroundColor = ""; // Vuelve al azul original
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Error al copiar: ', err);
+    });
+}
+</script>
