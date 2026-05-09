@@ -262,3 +262,32 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     font-size: 1.1rem;
 }
 
+/* Badge flotante sobre la foto */
+.gallery-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Colores institucionales y temáticos */
+.gallery-badge.docencia { background-color: #576e30; }      /* Verde UJA */
+.gallery-badge.investigacion { background-color: #2c3e50; } /* Azul oscuro profesional */
+.gallery-badge.divulgacion { background-color: #e67e22; }   /* Naranja activo */
+
+/* Contenedor relativo para que el badge no se escape */
+.gallery-image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+fotos:
+  - titulo: "Tesis Doctoral"
+    evento: "Sinbad2 2023"
+    tipo: "investigacion"  # <--- Nuevo campo
+    imagen: "/assets/img/galeria/tesis_dgz.jpg"
+    descripcion: "Lectura Tesis Doctoral."
+  
+  - titulo: "Instituto Superior Tecnico"
+    evento: "Estancia en Lisboa 2025"
+    tipo: "investigacion" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/IST25.jpg"
+    descripcion: "Vistas desde el instituto."
+
+  - titulo: "Neoteach 25"
+    evento: "NEOLAIA 2025"
+    tipo: "docencia" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/Neoteach25.jpg.jpg"
+    descripcion: "Gala Internacionalización UJA."
