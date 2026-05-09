@@ -397,7 +397,12 @@ nav {
 /* 3. Ajuste para el header (donde está tu nombre y foto) */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centra todo el bloque en la pantalla */
+    gap: 60px; /* Esto es la separación exacta entre las letras y tu foto. Puedes hacerlo más grande o pequeño */
     align-items: center;
-    padding: 20px 0;
+    padding: 40px 20px;
+    
+    /* Mantenemos la capa alta para que la galería pase por debajo */
+    position: relative;
+    z-index: 1000;
 }
