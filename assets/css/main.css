@@ -230,3 +230,15 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     width: 25px;
     text-align: center;
 }
+.badge-simple {
+    display: inline-block !important;
+    margin-top: 10px !important;
+    padding: 2px 8px !important;
+    border: 1px solid var(--uja-blue) !important;
+    border-radius: 4px !important;
+    color: var(--uja-blue) !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 0.75rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}

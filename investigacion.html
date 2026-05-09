@@ -30,9 +30,8 @@ title: Investigación
                             En: <i>{{ pub.libro }}</i>. {{ pub.editorial }}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
                         {% endif %}
                         
-                        <div class="pub-badges-row">
-                            <span class="pub-badge-type">{{ pub.tipo | capitalize }}</span>
-                            {% if pub.impacto %}<span class="pub-badge-impact">{{ pub.impacto }}</span>{% endif %}
+                        <div class="badge-container">
+                            <span class="badge-simple">{{ pub.tipo }}</span>
                         </div>
                     </div>
 
@@ -101,8 +100,8 @@ title: Investigación
                 
                 <p style="margin: 8px 0 0 35px; font-size: 0.95rem; color: #555;">{{ item.descripcion }}</p>
                 
-                <div class="pub-badges-row" style="margin-left: 35px;">
-                    <span class="pub-badge-type">{{ item.tipo | capitalize }}</span>
+                <div class="badge-container">
+                    <span class="badge-simple">{{ item.tipo }}</span>
                 </div>
             </div>
 
