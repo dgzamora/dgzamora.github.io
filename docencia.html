@@ -61,7 +61,7 @@ title: Docencia
     </section>
 
     {% for bloque in site.data.innovacion_docente.secciones %}
-    <details class="academic-year-dropdown" open>
+    <details class="academic-year-dropdown" {% if forloop.first %}open{% endif %}>
         <summary class="year-header">
             Curso {{ bloque.anio }}
             <i class="fas fa-chevron-down arrow"></i>

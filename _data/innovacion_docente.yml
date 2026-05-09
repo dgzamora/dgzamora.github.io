@@ -33,7 +33,7 @@ secciones:
         tipo: "proyecto"
         etiqueta: "Proyecto de Innovación Docente"
         guia: ""
-        materiales: ""
+        materiales: "https://hdl.handle.net/10953.1/26844"
       - titulo: "Tutor del Plan de Acción Tutorial (PAT)"
         subtitulo: "Escuela Politécnica Superior de Linares - Universidad de Jaén"
         tipo: "tutorizacion"
