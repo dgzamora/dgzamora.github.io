@@ -3,30 +3,55 @@ layout: default
 title: Galería
 ---
 
-<main class="container-docencia">
+<main class="container-docencia" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
     <section class="section-title">
         <h2><i class="fas fa-camera-retro"></i> Galería de Actividades</h2>
-        <p style="color: #666; margin-top: -10px;">Recopilación visual de proyectos, docencia e investigación.</p>
     </section>
 
-    <div class="gallery-grid">
-        {% for foto in site.data.galeria.fotos %}
-        <div class="gallery-card">
-            <div class="gallery-image-container">
-                <div class="gallery-badge {{ foto.tipo }}">
-                    {% if foto.tipo == "docencia" %}<i class="fas fa-chalkboard-teacher"></i> Docencia
-                    {% elsif foto.tipo == "investigacion" %}<i class="fas fa-microscope"></i> Investigación
-                    {% elsif foto.tipo == "divulgacion" %}<i class="fas fa-bullhorn"></i> Divulgación
-                    {% endif %}
+    <div class="slider-container">
+        <div class="slider">
+            {% for foto in site.data.galeria.fotos %}
+            <div class="slide {% if forloop.first %}active{% endif %}">
+                <img src="{{ foto.imagen | relative_url }}" alt="{{ foto.titulo }}">
+                <div class="slide-caption">
+                    <strong>{{ foto.titulo }}</strong> | {{ foto.evento }}
                 </div>
-                <img src="{{ foto.imagen | relative_url }}" alt="{{ foto.titulo }}" class="gallery-img">
             </div>
-            <div class="gallery-content">
+            {% endfor %}
+        </div>
+    </div>
+
+    <hr style="margin: 50px 0; border: 0; border-top: 1px solid #eee;">
+
+    <div class="gallery-grid-clean">
+        {% for foto in site.data.galeria.fotos %}
+        <div class="photo-card">
+            <div class="photo-wrapper">
+                <div class="gallery-badge {{ foto.tipo }}">{{ foto.tipo }}</div>
+                <img src="{{ foto.imagen | relative_url }}" alt="{{ foto.titulo }}">
+            </div>
+            <div class="photo-info">
                 <strong>{{ foto.titulo }}</strong>
-                <p class="gallery-event">{{ foto.evento }}</p>
-                <p class="gallery-desc">{{ foto.descripcion }}</p>
+                <span>{{ foto.evento }}</span>
             </div>
         </div>
         {% endfor %}
     </div>
+
 </main>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(n) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    setInterval(() => {
+        showSlide(currentSlide + 1);
+    }, 4000); // Cambia cada 4 segundos
+</script>

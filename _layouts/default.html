@@ -37,28 +37,5 @@
     <p><i>"En matemáticas no entiendes las cosas. Simplemente te acostumbras a ellas."</i></p>
     <strong>John von Neumann</strong> 
 </footer>
-<script>
-    // Función para mostrar/ocultar el cuadro
-    function toggleBibtex(id) {
-        var element = document.getElementById(id);
-        if (element.style.display === "none") {
-            element.style.display = "block";
-        } else {
-            element.style.display = "none";
-        }
-    }
-
-    // Función para copiar al portapapeles
-    function copyBibtex(preId, btn) {
-        var text = document.getElementById(preId).innerText;
-        navigator.clipboard.writeText(text).then(function() {
-            var originalText = btn.innerText;
-            btn.innerText = "¡Copiado!";
-            setTimeout(function() {
-                btn.innerText = originalText;
-            }, 2000);
-        });
-    }
-</script>
 </body>
 </html>
