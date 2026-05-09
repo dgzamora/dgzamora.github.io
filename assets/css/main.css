@@ -374,7 +374,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     font-size: 0.65rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Responsive total */
@@ -386,14 +386,12 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
 header, nav {
     position: relative;
     z-index: 1000; /* Prioridad alta */
-    background-color: #ffffff; /* MUY IMPORTANTE: Para que no sea transparente */
 }
 
 /* 2. Opcional: Si quieres que el menú (nav) se quede fijo arriba al bajar */
 nav {
     position: sticky;
     top: 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra suave para separar del contenido */
 }
 
 /* 3. Ajuste para el header (donde está tu nombre y foto) */
@@ -402,5 +400,4 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    background-color: #ffffff;
 }
