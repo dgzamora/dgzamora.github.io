@@ -74,3 +74,112 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
 /* Animación de la flecha */
 .academic-year-dropdown[open] .arrow { transform: rotate(180deg); }
 .arrow { transition: transform 0.3s; }
+
+/* Estilo para las publicaciones */
+.pub-card {
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.pub-reference {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #444;
+    position: relative;
+}
+
+.pub-badge {
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 2px 8px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    color: #666;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pub-links {
+    display: flex;
+    gap: 10px;
+    min-width: 120px;
+    justify-content: flex-end;
+}
+
+.btn-pub {
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-pub.doi {
+    color: #bd212f; /* Rojo típico de DOI */
+    border: 1px solid #bd212f;
+}
+
+.btn-pub.oa {
+    color: #2e7d32; /* Verde para Open Access */
+    border: 1px solid #2e7d32;
+}
+
+.btn-pub:hover {
+    background: #f8f8f8;
+    transform: translateY(-2px);
+}
+/* Estilos del botón BibTeX */
+.btn-pub.bib {
+    color: #444;
+    border: 1px solid #444;
+    background: transparent;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Estilos del cuadro de código */
+.bibtex-container {
+    background: #f8f9fa;
+    border-left: 4px solid var(--uja-blue);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+}
+
+.bibtex-container pre {
+    margin: 0;
+    white-space: pre-wrap; /* Para que el código no se salga de la pantalla */
+    font-size: 0.85em;
+    color: #333;
+}
+
+/* Botón de copiar integrado */
+.btn-copy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--accent-gold);
+    color: var(--uja-blue);
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-copy:hover {
+    background: var(--uja-blue);
+    color: white;
+}

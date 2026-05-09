@@ -5,6 +5,7 @@
     <title> Dr. Diego García-Zamora</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
     <header>
@@ -34,5 +35,28 @@
     <p><i>"En matemáticas no entiendes las cosas. Simplemente te acostumbras a ellas."</i></p>
     <strong>John von Neumann</strong> 
 </footer>
+<script>
+    // Función para mostrar/ocultar el cuadro
+    function toggleBibtex(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+
+    // Función para copiar al portapapeles
+    function copyBibtex(preId, btn) {
+        var text = document.getElementById(preId).innerText;
+        navigator.clipboard.writeText(text).then(function() {
+            var originalText = btn.innerText;
+            btn.innerText = "¡Copiado!";
+            setTimeout(function() {
+                btn.innerText = originalText;
+            }, 2000);
+        });
+    }
+</script>
 </body>
 </html>
