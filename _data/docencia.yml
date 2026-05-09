@@ -1,0 +1,21 @@
+- curso: "2025/2026"
+  asignaturas:
+    - nombre: "Métodos Matemáticos de las Telecomunicaciones"
+      titulacion: "Grado en Ingeniería de Tecnologías de Telecomunicación"
+      guia: "https://url-de-la-guia.com"
+      apuntes: "apuntes/metodos_teleco.pdf"
+      icono: "fas fa-square-root-alt"
+    
+    - nombre: "Modelos Matemáticos en la Empresa"
+      titulacion: "Grado en ADE"
+      guia: "#"
+      apuntes: "#"
+      icono: "fas fa-chart-line"
+
+- curso: "2024/2025"
+  asignaturas:
+    - nombre: "Estadística y Optimización"
+      titulacion: "Grado en Ingeniería Mecánica"
+      guia: "#"
+      apuntes: "#"
+      icono: "fas fa-calculator"

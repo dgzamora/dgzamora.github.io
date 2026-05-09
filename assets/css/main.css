@@ -1,0 +1,76 @@
+
+/* Aquí ya tendrás tus colores de la UJA y estilos generales */
+:root { --uja-blue: rgb(87, 110, 48); --accent-gold: #d6d9a9; }
+
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
+        header { background-color: var(--uja-blue); color: white; padding: 2rem; display: flex; justify-content: space-between; align-items: center; border-radius: 0 0 20px 20px; }
+        nav { background: white; display: flex; justify-content: center; border-bottom: 2px solid var(--accent-gold); position: sticky; top: 0; }
+        nav a { padding: 1rem 2rem; text-decoration: none; color: var(--uja-blue); font-weight: bold; }
+        .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
+        /* Cajas de contenido */
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: var(--uja-blue); border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        
+        .tag-box {
+            background: #f9f9f9;
+            border: 1px solid var(--uja-blue);
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            font-style: italic;
+        }
+
+/* Estilo del Desplegable */
+.academic-year-dropdown {
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.year-header {
+    background: var(--uja-blue);
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Quita la flecha por defecto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.year-header::-webkit-details-marker { display: none; } /* Quita flecha en Safari */
+
+.subjects-container {
+    padding: 10px 20px;
+    background: #fdfdfd;
+}
+
+/* El "Entorno Asignatura" */
+.subject-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px dashed var(--accent-gold);
+}
+
+.subject-card:last-child { border-bottom: none; }
+
+.subject-details { display: flex; align-items: center; gap: 15px; }
+
+.subject-icon { color: var(--uja-blue); font-size: 1.2em; width: 25px; }
+
+.subject-name { font-weight: bold; display: block; color: #333; }
+
+.subject-code { font-size: 0.85em; color: #666; }
+
+.btn-icon { color: var(--uja-blue); font-size: 1.3em; margin-left: 10px; transition: 0.2s; }
+.btn-icon:hover { color: var(--accent-gold); }
+
+/* Animación de la flecha */
+.academic-year-dropdown[open] .arrow { transform: rotate(180deg); }
+.arrow { transition: transform 0.3s; }

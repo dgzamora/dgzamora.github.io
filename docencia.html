@@ -1,0 +1,37 @@
+---
+layout: default
+title: Docencia
+---
+
+<main class="container-docencia">
+    <section class="section-title">
+        <h2><i class="fas fa-chalkboard-teacher"></i> Trayectoria Docente</h2>
+    </section>
+
+    {% for bloque in site.data.docencia %}
+    <details class="academic-year-dropdown" {% if forloop.first %}open{% endif %}>
+        <summary class="year-header">
+            Curso Académico {{ bloque.curso }}
+            <i class="fas fa-chevron-down arrow"></i>
+        </summary>
+
+        <div class="subjects-container">
+            {% for asig in bloque.asignaturas %}
+            <div class="subject-card">
+                <div class="subject-details">
+                    <i class="{{ asig.icono }} subject-icon"></i>
+                    <div class="subject-text">
+                        <span class="subject-name">{{ asig.nombre }}</span>
+                        <span class="subject-code">{{ asig.titulacion }}</span>
+                    </div>
+                </div>
+                <div class="subject-actions">
+                    <a href="{{ asig.guia }}" class="btn-icon" title="Guía Docente"><i class="fas fa-file-signature"></i></a>
+                    <a href="{{ asig.apuntes }}" class="btn-icon" title="Apuntes"><i class="fas fa-folder-open"></i></a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </details>
+    {% endfor %}
+</main>
