@@ -10,6 +10,16 @@
       doi: "https://doi.org/10.1016/j.fss.2025.109652"
       oa: ""
       impacto: "Q1 (IF: 3.2)"
+      bibtex: |
+        @article{garcia2026extended,
+          title={Extended dissimilarities and d-Choquet integral for fuzzy numbers},
+          author={Garc{\'\i}a-Zamora, D. and Rold{\'a}n L{\'o}pez de Hierro, A. F. and Bustince, H.},
+          journal={Fuzzy Sets and Systems},
+          volume={525},
+          pages={109652},
+          year={2026},
+          doi={10.1016/j.fss.2025.109652}
+        }
 
     - tipo: "artículo"
       autores: "García-Zamora, D., Roldán López de Hierro, A.F. & Bustince, H."
@@ -21,6 +31,16 @@
       doi: "https://doi.org/10.1007/s40314-025-03500-8"
       oa: ""
       impacto: "Q1 (IF: 2.5)"
+      bibtex: |
+        @article{garcia2026note,
+          title={A note on the admissibility of the centroid-based preorder for fuzzy numbers},
+          author={Garc{\'\i}a-Zamora, D. and Rold{\'a}n L{\'o}pez de Hierro, A.F. and Bustince, H.},
+          journal={Computational and Applied Mathematics},
+          volume={45},
+          pages={150},
+          year={2026},
+          doi={10.1007/s40314-025-03500-8}
+        }
 
 - anio: "2025"
   publicaciones:
@@ -34,6 +54,16 @@
       doi: "https://doi.org/10.1016/j.eswa.2024.125367"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{pan2025novel,
+          title={A novel online reviews-based decision-making framework to manage rating and textual reviews},
+          author={Pan, Xiao-Hong and He, Shi-Fan and Garc{\'\i}a-Zamora, Diego and Wang, Ying-Ming and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          volume={259},
+          pages={125367},
+          year={2025},
+          doi={10.1016/j.eswa.2024.125367}
+        }
 
     - tipo: "artículo"
       autores: "Diego García-Zamora, Bapi Dutta, LeSheng Jin, Zhen-Song Chen, Luis Martínez"
@@ -45,6 +75,16 @@
       doi: "https://doi.org/10.1016/j.eswa.2024.125726"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{garcia2025data,
+          title={A data-driven large-scale group decision-making framework for managing ratings and text reviews},
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Jin, LeSheng and Chen, Zhen-Song and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          volume={263},
+          pages={125726},
+          year={2025},
+          doi={10.1016/j.eswa.2024.125726}
+        }
 
     - tipo: "artículo"
       autores: "Yefan Han, Bapi Dutta, Diego García-Zamora, Ying Ji, Shaojian Qu, Luis Martínez"
@@ -56,6 +96,16 @@
       doi: "https://doi.org/10.1016/j.asoc.2024.112647"
       oa: ""
       impacto: "Q1 (IF: 7.2)"
+      bibtex: |
+        @article{han2025elicit,
+          title={ELICIT information-based robust large-scale minimum cost consensus model under social networks},
+          author={Han, Yefan and Dutta, Bapi and Garc{\'\i}a-Zamora, Diego and Ji, Ying and Qu, Shaojian and Mart{\'\i}nez, Luis},
+          journal={Applied Soft Computing},
+          volume={170},
+          pages={112647},
+          year={2025},
+          doi={10.1016/j.asoc.2024.112647}
+        }
 
     - tipo: "artículo"
       autores: "A.F. Roldán López de Hierro, A. Cruz, R.H.N. Santiago, C. Roldán, D. García-Zamora, F. Neres, and H. Bustince"
@@ -67,6 +117,16 @@
       doi: "https://doi.org/10.1016/j.fss.2025.109277"
       oa: ""
       impacto: "Q1 (IF: 3.2)"
+      bibtex: |
+        @article{roldan2025fuzzy,
+          title={Fuzzy dissimilarities and the fuzzy Choquet integral of triangular fuzzy numbers on [0,1]},
+          author={Rold{\'a}n L{\'o}pez de Hierro, A.F. and Cruz, A. and Santiago, R.H.N. and Rold{\'a}n, C. and Garc{\'\i}a-Zamora, D. and Neres, F. and Bustince, H.},
+          journal={Fuzzy Sets and Systems},
+          volume={505},
+          pages={109277},
+          year={2025},
+          doi={10.1016/j.fss.2025.109277}
+        }
 
     - tipo: "artículo"
       autores: "García-Zamora, D., Dutta, B., Labella, Á., & Martínez, L."
@@ -78,6 +138,35 @@
       doi: "https://doi.org/10.15388/25-INFOR599"
       oa: ""
       impacto: "Q1 (IF: 2.8)"
+      bibtex: |
+        @article{garcia2025owa,
+          title={OWA Operators in Large-Scale Group Decision-Making: An Analysis Based on Comprehensive Minimum Cost Consensus},
+          author={Garc{\'\i}a-Zamora, D. and Dutta, B. and Labella, {\'A}. and Mart{\'\i}nez, L.},
+          journal={INFORMATICA},
+          volume={36},
+          number={3},
+          pages={557--588},
+          year={2025},
+          doi={10.15388/25-INFOR599}
+        }
+    - tipo: "capítulo"
+      autores: "D. García-Zamora, and L. Martínez"
+      titulo: "Mean Squared Error Utility for Fuzzy Preference Relations"
+      libro: "Decision Making Under Uncertainty Via Optimization, Modelling, and Analysis"
+      revista: "Studies in Systems, Decision and Control 558"
+      paginas: "67-90"
+      editorial: "Springer"
+      doi: "https://doi.org/10.1007/978-981-96-0085-4"
+      bibtex: |
+        @incollection{garcia2025mean,
+          title={Mean Squared Error Utility for Fuzzy Preference Relations},
+          author={Garc{\'\i}a-Zamora, D. and Mart{\'\i}nez, L.},
+          booktitle={Decision Making Under Uncertainty Via Optimization, Modelling, and Analysis},
+          pages={67--90},
+          year={2025},
+          publisher={Springer},
+          doi={10.1007/978-981-96-0085-4}
+        }  
 
 - anio: "2024"
   publicaciones:
@@ -91,6 +180,16 @@
       doi: "https://doi.org/10.1016/j.eswa.2023.122555"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{song2024managing,
+          title={Managing non-cooperative behaviors in consensus reaching process: A novel multi-stage linguistic LSGDM framework},
+          author={Song, Hui-Hui and Dutta, Bapi and Garc{\'\i}a-Zamora, Diego and Wang, Ying-Ming and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          volume={240},
+          pages={122555},
+          year={2024},
+          doi={10.1016/j.eswa.2023.122555}
+        }
 
     - tipo: "artículo"
       autores: "Diego García-Zamora, Anderson Cruz, Fernando Neres, Regivan H.N. Santiago, Antonio F. Roldán López de Hierro, Rui Paiva, Graçaliz. P. Dimuro, Luis Martínez, Benjamín Bedregal, Humberto Bustince"
@@ -102,6 +201,16 @@
       doi: "https://doi.org/10.1016/j.fss.2024.108863"
       oa: ""
       impacto: "Q1 (IF: 3.9)"
+      bibtex: |
+        @article{garcia2024admissible,
+          title={Admissible OWA Operators for Fuzzy Numbers},
+          author={Garc{\'\i}a-Zamora, Diego and Cruz, Anderson and Neres, Fernando and Santiago, Regivan H.N. and Rold{\'a}n L{\'o}pez de Hierro, Antonio F. and Paiva, Rui and Dimuro, Gra{\c{c}}aliz. P. and Mart{\'\i}nez, Luis and Bedregal, Benjam{\'\i}n and Bustince, Humberto},
+          journal={Fuzzy Sets and Systems},
+          volume={480},
+          pages={108863},
+          year={2024},
+          doi={10.1016/j.fss.2024.108863}
+        }
 
     - tipo: "artículo"
       autores: "Shi-Fan He, Xiao-Hong Pan, Ying-Ming Wang, Diego García Zamora, Luis Martínez"
@@ -113,6 +222,16 @@
       doi: "https://doi.org/10.1016/j.inffus.2024.102264"
       oa: ""
       impacto: "Q1 (IF: 18.6)"
+      bibtex: |
+        @article{he2024novel,
+          title={A novel Multi-Criteria Decision Making framework based on Evidential Reasoning dealing with missing information from online reviews},
+          author={He, Shi-Fan and Pan, Xiao-Hong and Wang, Ying-Ming and Garc{\'\i}a Zamora, Diego and Mart{\'\i}nez, Luis},
+          journal={Information Fusion},
+          volume={106},
+          pages={102264},
+          year={2024},
+          doi={10.1016/j.inffus.2024.102264}
+        }
 
     - tipo: "artículo"
       autores: "LeSheng Jin, Radko Mesiar, Tapan Senapati, Chiranjibe Jana, Chao Ma, Diego García-Zamora, Ronald R. Yager"
@@ -124,6 +243,16 @@
       doi: "https://doi.org/10.1016/j.ins.2024.120275"
       oa: ""
       impacto: "Q1 (IF: 8.1)"
+      bibtex: |
+        @article{jin2024ordered,
+          title={Ordered weighted geometric averaging operators for basic uncertain information},
+          author={Jin, LeSheng and Mesiar, Radko and Senapati, Tapan and Jana, Chiranjibe and Ma, Chao and Garc{\'\i}a-Zamora, Diego and Yager, Ronald R.},
+          journal={Information Sciences},
+          volume={663},
+          pages={120275},
+          year={2024},
+          doi={10.1016/j.ins.2024.120275}
+        }
 
     - tipo: "artículo"
       autores: "J. Baz, D. García-Zamora, I. Díaz, S. Montes, L. Martínez"
@@ -135,6 +264,14 @@
       doi: "https://doi.org/10.1007/s00362-024-01547-z"
       oa: ""
       impacto: "Q3 (IF: 1.3)"
+      bibtex: |
+        @article{baz2024flexible,
+          title={Flexible-dimensional L-statistic for mean estimation of symmetric distributions},
+          author={Baz, J. and Garc{\'\i}a-Zamora, D. and D{\'\i}az, I. and Montes, S. and Mart{\'\i}nez, L.},
+          journal={Statistical Papers},
+          year={2024},
+          doi={10.1007/s00362-024-01547-z}
+        }
 
     - tipo: "artículo"
       autores: "LeSheng Jin, Zhen-Song Chen, Radko Mesiar, Tapan Senapati, Diego García-Zamora, Luis Martínez"
@@ -146,6 +283,16 @@
       doi: "https://doi.org/10.1016/j.fss.2024.108972"
       oa: ""
       impacto: "Q1 (IF: 3.9)"
+      bibtex: |
+        @article{jin2024weights,
+          title={Weights generation models based on acceptance degrees in decision-making},
+          author={Jin, LeSheng and Chen, Zhen-Song and Mesiar, Radko and Senapati, Tapan and Garc{\'\i}a-Zamora, Diego and Mart{\'\i}nez, Luis},
+          journal={Fuzzy Sets and Systems},
+          volume={486},
+          pages={108972},
+          year={2024},
+          doi={10.1016/j.fss.2024.108972}
+        }
 
     - tipo: "artículo"
       autores: "Diego García-Zamora, Bapi Dutta, José Rui Figueira, Luis Martínez"
@@ -157,6 +304,14 @@
       doi: "https://doi.org/10.1016/j.ejor.2024.06.039"
       oa: ""
       impacto: "Q1 (IF: 6.4)"
+      bibtex: |
+        @article{garcia2024deck,
+          title={The deck of cards method to build interpretable fuzzy sets in decision-making},
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Figueira, Jos{\'e} Rui and Mart{\'\i}nez, Luis},
+          journal={European Journal of Operational Research},
+          year={2024},
+          doi={10.1016/j.ejor.2024.06.039}
+        }
 
     - tipo: "artículo"
       autores: "Ying-Ming Wang, Hui-Hui Song, Bapi Dutta, Diego García-Zamora, Luis Martínez"
@@ -168,6 +323,16 @@
       doi: "https://doi.org/10.1016/j.ins.2024.121104"
       oa: ""
       impacto: "Q1 (IF: 8.1)"
+      bibtex: |
+        @article{wang2024consensus,
+          title={Consensus reaching in LSGDM: Overlapping community detection and bounded confidence-driven feedback mechanism},
+          author={Wang, Ying-Ming and Song, Hui-Hui and Dutta, Bapi and Garc{\'\i}a-Zamora, Diego and Mart{\'\i}nez, Luis},
+          journal={Information Sciences},
+          volume={679},
+          pages={121104},
+          year={2024},
+          doi={10.1016/j.ins.2024.121104}
+        }
 
     - tipo: "artículo"
       autores: "D. García-Zamora, A. Cruz, F. Neres, A.F. Roldán López de Hierro, R. Santiago, H. Bustince"
@@ -179,6 +344,16 @@
       doi: "https://doi.org/10.1007/s40314-024-02885-2"
       oa: ""
       impacto: "Q1 (IF: 2.5)"
+      bibtex: |
+        @article{garcia2024admissibility,
+          title={On the admissibility of the alpha-order for fuzzy numbers},
+          author={Garc{\'\i}a-Zamora, D. and Cruz, A. and Neres, F. and Rold{\'a}n L{\'o}pez de Hierro, A.F. and Santiago, R. and Bustince, H.},
+          journal={Computational and Applied Mathematics},
+          volume={43},
+          pages={383},
+          year={2024},
+          doi={10.1007/s40314-024-02885-2}
+        }
 
 - anio: "2023"
   publicaciones:
@@ -192,7 +367,49 @@
       doi: "https://doi.org/10.1007/s40815-023-01510-4"
       oa: ""
       impacto: "Q2 (IF: 4.3)"
+      bibtex: |
+        @article{feng2023safety,
+          title={Safety Perception Evaluation of Civil Aviation Based on Weibo Posts in China: An Enhanced Large-Scale Group Decision-Making Framework},
+          author={Feng, S. and Xin, Y. and Xiong, S. and Chen, Z. and Deveci, M. and Garc{\'\i}a-Zamora, D. and Pedrycz, W.},
+          journal={International Journal of Fuzzy Systems},
+          year={2023},
+          doi={10.1007/s40815-023-01510-4}
+        }
+    - tipo: "capítulo"
+      autores: "Y. Han, B. Dutta, D. García-Zamora, and L. Martínez"
+      titulo: "Robust Comprehensive Minimum Cost Consensus Model for Multi-Criteria Group Decision Making"
+      libro: "Advances in Complex Decision Making"
+      editorial: "Chapman and Hall/CRC"
+      paginas: "88-108"
+      doi: "https://doi.org/10.1201/9781003340621-6"
+      bibtex: |
+        @incollection{han2023robust,
+          title={Robust Comprehensive Minimum Cost Consensus Model for Multi-Criteria Group Decision Making},
+          author={Han, Y. and Dutta, B. and Garc{\'\i}a-Zamora, D. and Mart{\'\i}nez, L.},
+          booktitle={Advances in Complex Decision Making},
+          pages={88--108},
+          year={2023},
+          publisher={Chapman and Hall/CRC},
+          doi={10.1201/9781003340621-6}
+        }
 
+    - tipo: "capítulo"
+      autores: "X. Pan, S. He, D. García-Zamora, and L. Martínez"
+      titulo: "Interval Type-2 Fuzzy Decision Analysis Framework Based on Online Textual Reviews"
+      libro: "Advances in Complex Decision Making"
+      editorial: "Chapman and Hall/CRC"
+      paginas: "66-87"
+      doi: "https://doi.org/10.1201/9781003340621-5"
+      bibtex: |
+        @incollection{pan2023interval,
+          title={Interval Type-2 Fuzzy Decision Analysis Framework Based on Online Textual Reviews},
+          author={Pan, X. and He, S. and Garc{\'\i}a-Zamora, D. and Mart{\'\i}nez, L.},
+          booktitle={Advances in Complex Decision Making},
+          pages={66--87},
+          year={2023},
+          publisher={Chapman and Hall/CRC},
+          doi={10.1201/9781003340621-5}
+        }
     - tipo: "artículo"
       autores: "Hui-hui Song, Diego García Zamora, Álvaro Labella Romero, Xiang Jia, Ying-Ming Wang, and Luis Martínez"
       titulo: "Handling multi-granular hesitant information: A group decision-making method based on cross-efficiency with regret theory"
@@ -203,6 +420,15 @@
       doi: "https://doi.org/10.1016/j.eswa.2023.120332"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{song2023handling,
+          title={Handling multi-granular hesitant information: A group decision-making method based on cross-efficiency with regret theory},
+          author={Song, Hui-hui and Garc{\'\i}a Zamora, Diego and Labella Romero, {\'A}lvaro and Jia, Xiang and Wang, Ying-Ming and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          pages={120332},
+          year={2023},
+          doi={10.1016/j.eswa.2023.120332}
+        }
 
     - tipo: "artículo"
       autores: "Diego García-Zamora, Bapi Dutta, Álvaro Labella, and Luis Martínez"
@@ -214,6 +440,15 @@
       doi: "https://doi.org/10.1016/j.cie.2023.109295"
       oa: ""
       impacto: "Q1 (IF: 7.9)"
+      bibtex: |
+        @article{garcia2023fuzzy,
+          title={A Fuzzy-set based formulation for minimum cost consensus models},
+          author={Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Labella, {\'A}lvaro and Mart{\'\i}nez, Luis},
+          journal={Computers \& Industrial Engineering},
+          pages={109295},
+          year={2023},
+          doi={10.1016/j.cie.2023.109295}
+        }
 
     - tipo: "artículo"
       autores: "Yefan Han, Diego García-Zamora, Bapi Dutta, Ying Ji, Shaojian Qu, Luis Martínez"
@@ -225,6 +460,16 @@
       doi: "https://doi.org/10.1016/j.eswa.2023.120728"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{han2023large,
+          title={Large-scale group decision consensus under social network: A chance-constrained robust optimization-based minimum cost consensus model},
+          author={Han, Yefan and Garc{\'\i}a-Zamora, Diego and Dutta, Bapi and Ji, Ying and Qu, Shaojian and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          volume={231},
+          pages={120728},
+          year={2023},
+          doi={10.1016/j.eswa.2023.120728}
+        }
 
     - tipo: "artículo"
       autores: "García-Zamora, Diego, Rui Paiva, Anderson Cruz, Javier Fernandez, and Humberto Bustince"
@@ -236,6 +481,17 @@
       doi: "https://doi.org/10.3390/axioms12060589"
       oa: ""
       impacto: "Q1 (IF: 1.9)"
+      bibtex: |
+        @article{garcia2023some,
+          title={Some Construction Methods for Pseudo-Overlaps and Pseudo-Groupings and Their Application in Group Decision Making},
+          author={Garc{\'\i}a-Zamora, Diego and Paiva, Rui and Cruz, Anderson and Fernandez, Javier and Bustince, Humberto},
+          journal={Axioms},
+          volume={12},
+          number={6},
+          pages={589},
+          year={2023},
+          doi={10.3390/axioms12060589}
+        }
 
     - tipo: "artículo"
       autores: "LeSheng Jin, Zhen-Song Chen, Ronald R. Yager, Tapan Senapati, Radko Mesiar, Diego Garcia Zamora, Bapi Dutta, Luis Martínez"
@@ -247,6 +503,16 @@
       doi: "https://doi.org/10.1016/j.ins.2023.119357"
       oa: ""
       impacto: "Q1 (IF: 8.1)"
+      bibtex: |
+        @article{jin2023ordered,
+          title={Ordered weighted averaging operators for basic uncertain information granules},
+          author={Jin, LeSheng and Chen, Zhen-Song and Yager, Ronald R. and Senapati, Tapan and Mesiar, Radko and Garcia Zamora, Diego and Dutta, Bapi and Mart{\'\i}nez, Luis},
+          journal={Information Sciences},
+          volume={645},
+          pages={119357},
+          year={2023},
+          doi={10.1016/j.ins.2023.119357}
+        }
 
 - anio: "2022"
   publicaciones:
@@ -260,6 +526,33 @@
       doi: "https://doi.org/10.1016/j.ins.2021.10.077"
       oa: ""
       impacto: "Q1 (IF: 8.1)"
+      bibtex: |
+        @article{garcia2022symmetric,
+          title={Symmetric weights for OWA operators prioritizing intermediate values. The EVR-OWA operator},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          journal={Information Sciences},
+          volume={584},
+          pages={583--602},
+          year={2022},
+          doi={10.1016/j.ins.2021.10.077}
+        }
+    - tipo: "capítulo"
+      autores: "D. García-Zamora, A. Labella, R. M. Rodríguez and L. Martínez"
+      titulo: "Nonlinear Scaled Preferences in Linguistic Multi-Criteria Group Decision Making"
+      libro: "Real Life Applications of Multiple Criteria Decision-Making Techniques in Fuzzy Domain"
+      editorial: "Springer Nature Singapore"
+      paginas: "54-83"
+      doi: "https://doi.org/10.1007/978-981-19-4929-6"
+      bibtex: |
+        @incollection{garcia2022nonlinear,
+          title={Nonlinear Scaled Preferences in Linguistic Multi-Criteria Group Decision Making},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          booktitle={Real Life Applications of Multiple Criteria Decision-Making Techniques in Fuzzy Domain},
+          pages={54--83},
+          year={2022},
+          publisher={Springer Nature Singapore},
+          doi={10.1007/978-981-19-4929-6}
+        }
 
     - tipo: "artículo"
       autores: "D. García-Zamora, Á. Labella, W. Ding, R. M. Rodríguez, and L. Martínez"
@@ -271,6 +564,17 @@
       doi: "https://doi.org/10.1109/JAS.2022.105617"
       oa: ""
       impacto: "Q1 (IF: 11.8)"
+      bibtex: |
+        @article{garcia2022large,
+          title={Large-scale group decision making: A systematic review and a critical analysis},
+          author={Garc{\'\i}a-Zamora, D. and Labella, {\'A}. and Ding, W. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          journal={IEEE/CAA Journal of Automatica Sinica},
+          volume={9},
+          number={6},
+          pages={949--966},
+          year={2022},
+          doi={10.1109/JAS.2022.105617}
+        }
 
     - tipo: "artículo"
       autores: "D. García-Zamora, B. Dutta, S. Massanet, J. Riera and L. Martínez"
@@ -282,6 +586,14 @@
       doi: "https://doi.org/10.1016/j.ejor.2022.08.015"
       oa: ""
       impacto: "Q1 (IF: 6.4)"
+      bibtex: |
+        @article{garcia2022relationship,
+          title={Relationship between the distance consensus and the consensus degree in comprehensive minimum cost consensus models: A polytope-based analysis},
+          author={Garc{\'\i}a-Zamora, D. and Dutta, B. and Massanet, S. and Riera, J. and Mart{\'\i}nez, L.},
+          journal={European Journal of Operational Research},
+          year={2022},
+          doi={10.1016/j.ejor.2022.08.015}
+        }
 
     - tipo: "artículo"
       autores: "Y.-M. Wang, X. -H. Pan, S. -F. He, B. Dutta, D. García-Zamora and L. Martínez"
@@ -293,6 +605,14 @@
       doi: "https://doi.org/10.1109/TFUZZ.2022.3214104"
       oa: ""
       impacto: "Q1 (IF: 11.9)"
+      bibtex: |
+        @article{wang2022new,
+          title={A New Decision-Making Framework for Site Selection of Electric Vehicle Charging Station with Heterogeneous Information and Multi-Granular Linguistic Terms},
+          author={Wang, Y.-M. and Pan, X.-H. and He, S.-F. and Dutta, B. and Garc{\'\i}a-Zamora, D. and Mart{\'\i}nez, L.},
+          journal={IEEE Transactions on Fuzzy Systems},
+          year={2022},
+          doi={10.1109/TFUZZ.2022.3214104}
+        }
 
     - tipo: "artículo"
       autores: "D. García-Zamora, Á. Labella, R. M. Rodríguez and L. Martínez"
@@ -304,6 +624,14 @@
       doi: "https://doi.org/10.1109/TFUZZ.2022.3213943"
       oa: ""
       impacto: "Q1 (IF: 11.9)"
+      bibtex: |
+        @article{garcia2022linguistic,
+          title={A Linguistic Metric for Consensus Reaching Processes based on ELICIT Comprehensive Minimum Cost Consensus Models},
+          author={Garc{\'\i}a-Zamora, D. and Labella, {\'A}. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          journal={IEEE Transactions on Fuzzy Systems},
+          year={2022},
+          doi={10.1109/TFUZZ.2022.3213943}
+        }
 
     - tipo: "artículo"
       autores: "Ying-Ming Wang, Shi-Fan He, Diego García Zamora, Xiao-Hong Pan and Luis Martínez"
@@ -315,6 +643,16 @@
       doi: "https://doi.org/10.1016/j.eswa.2022.119107"
       oa: ""
       impacto: "Q1 (IF: 8.5)"
+      bibtex: |
+        @article{wang2022large,
+          title={A Large Scale Group Three-Way Decision-based consensus model for site selection of New Energy Vehicle charging stations},
+          author={Wang, Ying-Ming and He, Shi-Fan and Garc{\'\i}a Zamora, Diego and Pan, Xiao-Hong and Mart{\'\i}nez, Luis},
+          journal={Expert Systems with Applications},
+          volume={214},
+          pages={119107},
+          year={2022},
+          doi={10.1016/j.eswa.2022.119107}
+        }
 
     - tipo: "artículo"
       autores: "Zhou, M., Chen, Z., Jiang, J., Quian, G, García-Zamora, D., Dutta, B., Zhan, Q., Jin, L."
@@ -326,6 +664,16 @@
       doi: "https://doi.org/10.1007/s44196-022-00167-5"
       oa: ""
       impacto: "Q3 (IF: 2.9)"
+      bibtex: |
+        @article{zhou2022auto,
+          title={Auto-generated Relative Importance for Multi-agent Inducing Variable in Uncertain and Preference Involved Evaluation},
+          author={Zhou, M. and Chen, Z. and Jiang, J. and Quian, G. and Garc{\'\i}a-Zamora, D. and Dutta, B. and Zhan, Q. and Jin, L.},
+          journal={International Journal of Computational Intelligence Systems},
+          volume={15},
+          pages={108},
+          year={2022},
+          doi={10.1007/s44196-022-00167-5}
+        }
 
 - anio: "2021"
   publicaciones:
@@ -339,3 +687,14 @@
       doi: "https://doi.org/10.1002/int.22561"
       oa: ""
       impacto: "Q1 (IF: 8.709)"
+      bibtex: |
+        @article{garcia2021nonlinear,
+          title={Nonlinear preferences in Group Decision-Making. Extreme Values Amplifications and Extreme Values Reductions},
+          author={Garc{\'\i}a-Zamora, D. and Labella, A. and Rodr{\'\i}guez, R. M. and Mart{\'\i}nez, L.},
+          journal={International Journal of Intelligent Systems},
+          volume={36},
+          number={11},
+          pages={6581--6612},
+          year={2021},
+          doi={10.1002/int.22561}
+        }

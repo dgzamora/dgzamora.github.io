@@ -26,6 +26,8 @@ title: Investigación
                         <i>{{ pub.revista }}</i>, {{ pub.volumen }}({{ pub.numero }}), pp. {{ pub.paginas }}.
                     {% elsif pub.tipo == "congreso" %}
                         En <i>{{ pub.congreso }}</i>. {{ pub.ciudad }}.
+                    {% elsif pub.tipo == "capítulo" %}
+                        En: <i>{{ pub.libro }}</i>. {{ pub.editorial }}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
                     {% else %}
                         <i>{{ pub.revista }}</i>.
                     {% endif %}
