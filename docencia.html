@@ -20,20 +20,20 @@ title: Docencia
             <div class="pub-card">
                 <div class="pub-info-row">
                     
-                    <div class="pub-content-text">
-                        <span class="pub-type-icon">
-                            {% if item.tipo == "oficial" %}<i class="fas fa-university"></i>
-                            {% elsif item.tipo == "no_oficial" %}<i class="fas fa-certificate"></i>
-                            {% elsif item.tipo == "tesis" %}<i class="fas fa-award"></i>
-                            {% elsif item.tipo == "tfg" %}<i class="fas fa-user-graduate"></i>
-                            {% else %}<i class="fas fa-chalkboard"></i>{% endif %}
-                        </span>
+                    <div class="pub-reference" style="width: 100%;">
+                        <strong>
+                            <span style="color: var(--uja-blue, #576e30); margin-right: 6px;">
+                                {% if item.tipo == "oficial" %}<i class="fas fa-university"></i>
+                                {% elsif item.tipo == "no_oficial" %}<i class="fas fa-certificate"></i>
+                                {% elsif item.tipo == "tesis" %}<i class="fas fa-award"></i>
+                                {% elsif item.tipo == "tfg" %}<i class="fas fa-user-graduate"></i>
+                                {% else %}<i class="fas fa-chalkboard"></i>{% endif %}
+                            </span>
+                            {{ item.titulo }}
+                        </strong>
                         
-                        <div class="pub-reference">
-                            <strong>{{ item.titulo }}</strong>
-                            <p class="pub-description">{{ item.subtitulo }}</p>
-                            <span class="badge-simple">{{ item.etiqueta }}</span>
-                        </div>
+                        <p class="pub-description" style="margin-top: 5px;">{{ item.subtitulo }}</p>
+                        <span class="badge-simple" style="display: inline-block; margin-top: 8px;">{{ item.etiqueta }}</span>
                     </div>
 
                     <div class="pub-actions-btns">
