@@ -1,9 +1,11 @@
-- anio: 2024
+- anio: 2025
   items:
     - tipo: "ayuda"
       titulo: "Estancia de movilidad Junior 'José Castillejo' (CAS24/00249)"
       entidad: "Ministerio de Ciencia, Innovación y Universidades"
       descripcion: "Programa de estancias de movilidad de personal docente e investigador en centros extranjeros."
+- anio: 2024
+  items:
     - tipo: "premio"
       titulo: "2024 Editors’ Awards for Excellence in Reviewing"
       entidad: "European Journal of Operational Research"
@@ -12,10 +14,6 @@
 
 - anio: 2023
   items:
-    - tipo: "proyecto"
-      titulo: "Análisis, medida e implementación del modelo de economía circular en las cooperativas oleícolas jienneses (IEG 2022)"
-      entidad: "Diputación de Jaén / Instituto de Estudios Giennenses"
-      descripcion: "Subvención de investigación en el área de Ciencias Naturales y Tecnología."
     - tipo: "premio"
       titulo: "Best Paper Award - ISKE 2023"
       entidad: "18th International Conference on Intelligent Systems and Knowledge Engineering, Fuzhou, China"
@@ -24,9 +22,9 @@
 - anio: 2022
   items:
     - tipo: "proyecto"
-      titulo: "Proyecto IEG. Lo que se hace se mide: Cuadro de mandos de transición hacia la economía circular (EBM/IEG 2021)"
+      titulo: "Análisis, medida e implementación del modelo de economía circular en las cooperativas oleícolas jienneses (IEG 2022)"
       entidad: "Diputación de Jaén / Instituto de Estudios Giennenses"
-      descripcion: "Aplicación al sector de la construcción de Jaén."
+      descripcion: "Subvención de investigación en el área de Ciencias Naturales y Tecnología."
     - tipo: "ayuda"
       titulo: "Ayuda complementaria de movilidad FPU (EST22/00031)"
       entidad: "Ministerio de Universidades"
@@ -35,17 +33,13 @@
       titulo: "Best Student Paper Award - FLINS/ISKE 2022"
       entidad: "15th International FLINS Conference"
       descripcion: "Comprehensive Minimum Cost Consensus for Analyzing the Cost of Different Agreed Solutions."
-    - tipo: "premio"
-      titulo: "Highly Cited Paper"
-      entidad: "Clarivate Analytics / IEEE/CAA Journal of Automatica Sinica"
-      descripcion: "Large-scale group decision making: A systematic review and a critical analysis (35 citas)."
 
 - anio: 2021
   items:
     - tipo: "proyecto"
-      titulo: "Sistemas Inteligentes Para la Toma de Decisiones en Políticas de Sostenibilidad (UJA-1380637)"
-      entidad: "FEDER Andalucía / Fondo Europeo de Desarrollo Regional (UE)"
-      descripcion: "Ayudas a proyectos de I+d+i Convocatoria 2020."
+      titulo: "Proyecto IEG. Lo que se hace se mide: Cuadro de mandos de transición hacia la economía circular (EBM/IEG 2021)"
+      entidad: "Diputación de Jaén / Instituto de Estudios Giennenses"
+      descripcion: "Aplicación al sector de la construcción de Jaén."
     - tipo: "premio"
       titulo: "Best Student Paper Award - ISKE 2021"
       entidad: "16th International Conference on Intelligent Systems and Knowledge Engineering"
@@ -55,6 +49,13 @@
       entidad: "Universidad de Jaén"
       descripcion: "Non-linear preferences in Group Decision Making: Extreme Values Amplifications."
 
+- anio: 2020
+  items:
+    - tipo: "proyecto"
+      titulo: "Sistemas Inteligentes Para la Toma de Decisiones en Políticas de Sostenibilidad (UJA-1380637)"
+      entidad: "FEDER Andalucía / Fondo Europeo de Desarrollo Regional (UE)"
+      descripcion: "Ayudas a proyectos de I+d+i Convocatoria 2020."
+    
 - anio: 2019
   items:
     - tipo: "ayuda"
