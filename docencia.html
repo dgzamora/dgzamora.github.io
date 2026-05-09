@@ -4,34 +4,122 @@ title: Docencia
 ---
 
 <main class="container-docencia">
+    
     <section class="section-title">
-        <h2><i class="fas fa-chalkboard-teacher"></i> Trayectoria Docente</h2>
+        <h2><i class="fas fa-university"></i> C.8 Docencia Universitaria</h2>
     </section>
 
-    {% for bloque in site.data.docencia %}
+    {% for bloque in site.data.docencia.universitaria %}
     <details class="academic-year-dropdown" {% if forloop.first %}open{% endif %}>
         <summary class="year-header">
-            Curso Académico {{ bloque.curso }}
+            Curso {{ bloque.anio }}
             <i class="fas fa-chevron-down arrow"></i>
         </summary>
-
         <div class="subjects-container">
-            {% for asig in bloque.asignaturas %}
-            <div class="subject-card">
-                <div class="subject-details">
-                    <i class="{{ asig.icono }} subject-icon"></i>
-                    <div class="subject-text">
-                        <span class="subject-name">{{ asig.nombre }}</span>
-                        <span class="subject-code">{{ asig.titulacion }}</span>
+            {% for item in bloque.items %}
+            <div class="pub-card">
+                <div class="pub-info-row">
+                    <div class="pub-content-text">
+                        <span class="pub-type-icon"><i class="fas fa-chalkboard-teacher"></i></span>
+                        <div class="pub-reference">
+                            <strong>{{ item.asignatura }}</strong>
+                            <p class="pub-description">{{ item.grado }}</p>
+                            <span class="badge-simple">{{ item.detalles }}</span>
+                        </div>
                     </div>
-                </div>
-                <div class="subject-actions">
-                    <a href="{{ asig.guia }}" class="btn-icon" title="Guía Docente"><i class="fas fa-file-signature"></i></a>
-                    <a href="{{ asig.apuntes }}" class="btn-icon" title="Apuntes"><i class="fas fa-folder-open"></i></a>
+
+                    <div class="pub-actions-btns">
+                        {% if item.guia and item.guia != "" %}
+                            <a href="{{ item.guia }}" target="_blank" class="btn-pub oa" title="Guía Docente">
+                                <i class="fas fa-book-open"></i> Guía
+                            </a>
+                        {% endif %}
+                        
+                        {% if item.materiales and item.materiales != "" %}
+                            <a href="{{ item.materiales }}" target="_blank" class="btn-pub bib" title="Materiales y Apuntes">
+                                <i class="fas fa-file-download"></i> Materiales
+                            </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
             {% endfor %}
         </div>
     </details>
     {% endfor %}
+
+    <section class="section-title" style="margin-top: 50px;">
+        <h2><i class="fas fa-graduation-cap"></i> C.9 Docencia No Universitaria</h2>
+    </section>
+
+    <div class="subjects-container">
+        {% for item in site.data.docencia.no_universitaria %}
+        <div class="pub-card">
+            <div class="pub-info-row">
+                <div class="pub-content-text">
+                    <span class="pub-type-icon"><i class="fas fa-lightbulb"></i></span>
+                    <div class="pub-reference">
+                        <strong>{{ item.titulo }}</strong>
+                        <p class="pub-description">{{ item.programa }} ({{ item.anio }})</p>
+                        <span class="badge-simple">{{ item.rol }}</span>
+                    </div>
+                </div>
+
+                <div class="pub-actions-btns">
+                    {% if item.guia and item.guia != "" %}
+                        <a href="{{ item.guia }}" target="_blank" class="btn-pub oa">
+                            <i class="fas fa-link"></i> Info
+                        </a>
+                    {% endif %}
+                    {% if item.materiales and item.materiales != "" %}
+                        <a href="{{ item.materiales }}" target="_blank" class="btn-pub bib">
+                            <i class="fas fa-file-download"></i> Materiales
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <section class="section-title" style="margin-top: 50px;">
+        <h2><i class="fas fa-user-graduate"></i> C.10 & C.17 Supervisión</h2>
+    </section>
+
+    <div class="subjects-container">
+        {% for item in site.data.docencia.supervision %}
+        <div class="pub-card">
+            <div class="pub-info-row">
+                <div class="pub-content-text">
+                    <span class="pub-type-icon">
+                        {% if item.tipo == "Tesis Doctoral" %}<i class="fas fa-award"></i>
+                        {% else %}<i class="fas fa-user-edit"></i>{% endif %}
+                    </span>
+                    <div class="pub-reference">
+                        <strong>{{ item.alumno }}</strong>
+                        <p class="pub-description">"{{ item.titulo }}"</p>
+                        <p class="pub-description" style="font-size: 0.85rem; color: #888;">{{ item.entidad }} | {{ item.fecha }}</p>
+                        
+                        <div style="display: flex; gap: 10px; margin-top: 5px;">
+                            <span class="badge-simple">{{ item.tipo }}</span>
+                            {% if item.nota and item.nota != "" %}
+                            <span class="badge-simple" style="border-color: var(--accent-gold); color: #999;">Calificación: {{ item.nota }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pub-actions-btns">
+                    {% if item.guia and item.guia != "" %}
+                        <a href="{{ item.guia }}" target="_blank" class="btn-pub oa">Ver Trabajo</a>
+                    {% endif %}
+                    {% if item.materiales and item.materiales != "" %}
+                        <a href="{{ item.materiales }}" target="_blank" class="btn-pub bib">Repositorio</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
 </main>
