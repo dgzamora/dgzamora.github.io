@@ -19,6 +19,7 @@ title: Investigación
             {% for pub in bloque.publicaciones %}
             <div class="pub-card">
                 <div class="pub-reference">
+                    <i class="fas fa-circle" style="font-size: 0.5em; vertical-align: middle; margin-right: 10px; color: var(--accent-gold);"></i>
                     {{ pub.autores }} ({{ bloque.anio }}). 
                     "{{ pub.titulo }}". 
                     {% if pub.tipo == "artículo" %}
