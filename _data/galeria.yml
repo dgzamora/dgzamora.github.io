@@ -1,9 +1,5 @@
 fotos:
-  - titulo: "Tesis Doctoral"
-    evento: "Sinbad2 2023"
-    tipo: "investigacion"  # <--- Nuevo campo
-    imagen: "/assets/img/galeria/tesis_dgz.jpg"
-  
+
   - titulo: "Instituto Superior Tecnico"
     evento: "Estancia en Lisboa 2025"
     tipo: "investigacion" # <--- Nuevo campo
@@ -12,4 +8,40 @@ fotos:
   - titulo: "Neoteach 25"
     evento: "Gala Internacionalización UJA 2025"
     tipo: "docencia" # <--- Nuevo campo
-    imagen: "/assets/img/galeria/Neoteach25.jpg.jpg"
+    imagen: "/assets/img/galeria/Neoteach25.jpg"
+
+    fotos:
+  - titulo: "Congreso Fuzz-IEEE 2025"
+    evento: "IEEE International Conference"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/25IEEE.jpeg"
+
+  - titulo: "Congreso ESTYLF 2025"
+    evento: "Congreso Español sobre Tecnologías y Lógica Fuzzy"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/25estylf.jpeg"
+
+  - titulo: "Congreso FLINS 2023"
+    evento: "International Conference on FLINS"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/2023 - FLINS.jpg"
+
+  - titulo: "Congreso EUSFLAT 2023"
+    evento: "European Society for Fuzzy Logic and Technology Conference"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/23EUSFLAT.jpg"
+  
+  - titulo: "Tesis Doctoral"
+    evento: "Defensa de Tesis Doctoral 2023"
+    tipo: "investigacion"  # <--- Nuevo campo
+    imagen: "/assets/img/galeria/tesis_dgz.jpg"
+
+  - titulo: "Congreso ESTYLF 2022"
+    evento: "Congreso Español sobre Tecnologías y Lógica Fuzzy"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/2022 - ESTYLF.jpg"
+
+  - titulo: "Congreso IFSA 2021"
+    evento: "International Fuzzy Systems Association World Congress"
+    tipo: "investigacion"
+    imagen: "/assets/img/galeria/21IFSA.jpg"
