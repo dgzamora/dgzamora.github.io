@@ -77,12 +77,12 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
 
 /* Estilo para las publicaciones */
 .pub-card {
-    padding: 15px 0;
     border-bottom: 1px solid #f0f0f0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    padding: 25px 0 !important; /* Más espacio arriba y abajo */
+    gap: 30px !important;
 }
 
 .pub-reference {
@@ -241,4 +241,11 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; }
     font-size: 0.75rem !important;
     font-weight: bold !important;
     text-transform: uppercase !important;
+}
+.pub-type-icon {
+    color: var(--uja-green);
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+    font-size: 1.1rem;
 }

@@ -17,9 +17,20 @@ title: Investigación
 
         <div class="subjects-container">
             {% for pub in bloque.publicaciones %}
-            <div class="pub-card-wrapper"> <div class="pub-info-row">
+            <div class="pub-card-wrapper"> 
+                <div class="pub-info-row">
                     <div class="pub-content-text">
-                        <i class="fas fa-circle" style="font-size: 0.5em; vertical-align: middle; margin-right: 10px; color: var(--accent-gold);"></i>
+                        <span class="pub-type-icon">
+                            {% if pub.tipo == "artículo" %}
+                                <i class="fas fa-file-alt"></i>
+                            {% elsif pub.tipo == "congreso" %}
+                                <i class="fas fa-users"></i>
+                            {% elsif pub.tipo == "capítulo" %}
+                                <i class="fas fa-book"></i>
+                            {% else %}
+                                <i class="fas fa-certificate"></i>
+                            {% endif %}
+                        </span>
                         <strong>{{ pub.autores }}</strong> ({{ bloque.anio }}). 
                         "{{ pub.titulo }}". 
                         {% if pub.tipo == "artículo" %}
