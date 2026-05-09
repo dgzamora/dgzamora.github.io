@@ -1,0 +1,42 @@
+secciones:
+  - anio: "2025-2026"
+    meritos:
+      - titulo: 'Castillo-González, N. y García-Zamora, D. (2025). "Explicar para comprender: mirada pedagógica al aprendizaje y la evaluación en matemáticas universitarias en la era de la Inteligencia Artificial"'
+        subtitulo: "VII Congreso Internacional de Innovación Docente en Educación Superior, Almería (Virtual)"
+        tipo: "congreso"
+        etiqueta: "Comunicación Oral"
+        guia: ""
+        materiales: "https://youtu.be/CkwWllluDbE?si=cPzZAepfwe57kbwK"
+      - titulo: 'Castillo-González, N. y García-Zamora, D. (2025). "Cuando enseñar es la mejor forma de aprender: producción audiovisual y aprendizaje entre iguales en matemáticas para ingeniería"'
+        subtitulo: "VII Congreso Internacional de Innovación Docente en Educación Superior, Almería (Virtual)"
+        tipo: "congreso"
+        etiqueta: "Comunicación Escrita"
+        guia: ""
+        materiales: ""
+      - titulo: 'García-Zamora, D., & Castillo-González, N. (2025). "Aprender explicando: Innovación docente mediante producción audiovisual en métodos matemáticos de las telecomunicaciones"'
+        subtitulo: "En M. M. Molero Jurado et al. (Coords.), Innovación docente en ciencias, ingeniería y arquitectura (pp. 273-284). Dykinson."
+        tipo: "libro"
+        etiqueta: "Capítulo de Libro"
+        guia: ""
+        materiales: ""
+
+  - anio: "2024-2025"
+    meritos:
+      - titulo: 'Coordinación del proyecto "Transformación Digital de los Métodos Matemáticos en Telecomunicaciones" (Programa NEOTEACH)'
+        subtitulo: "Universidad de Jaén"
+        tipo: "proyecto"
+        etiqueta: "Proyecto de Innovación Docente"
+        guia: ""
+        materiales: ""
+      - titulo: 'Coordinación del proyecto 2024-PIGU/CE01 "La igualdad es matemática. Mujeres que rompieron barreras"'
+        subtitulo: "Universidad de Jaén"
+        tipo: "proyecto"
+        etiqueta: "Proyecto de Innovación Docente"
+        guia: ""
+        materiales: ""
+      - titulo: "Tutor del Plan de Acción Tutorial (PAT)"
+        subtitulo: "Escuela Politécnica Superior de Linares - Universidad de Jaén"
+        tipo: "tutorizacion"
+        etiqueta: "Tutorización"
+        guia: ""
+        materiales: ""
