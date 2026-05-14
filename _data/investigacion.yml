@@ -20,6 +20,50 @@
           year={2026},
           doi={10.1016/j.fss.2025.109652}
         }
+    - tipo: "artículo"
+      autores: "Bapi Dutta, Diego García-Zamora, José Rui Figueira, Luis Martínez"
+      titulo: "A deck of cards-based co-constructive approach for modeling higher-order uncertainty in fuzzy decision-making"
+      revista: "Applied Soft Computing"
+      volumen: "196"
+      numero: ""
+      paginas: "115094"
+      doi: "https://doi.org/10.1016/j.asoc.2026.115094"
+      oa: ""
+      impacto: "Q1 (IF: 6.6)"
+      bibtex: |
+        @article{duttaIT2FN,
+          title = {A deck of cards-based co-constructive approach for modeling higher-order uncertainty in fuzzy decision-making},
+          journal = {Applied Soft Computing},
+          volume = {196},
+          pages = {115094},
+          year = {2026},
+          issn = {1568-4946},
+          doi = {https://doi.org/10.1016/j.asoc.2026.115094},
+          url = {https://www.sciencedirect.com/science/article/pii/S1568494626005429},
+          author = {Bapi Dutta and Diego García-Zamora and José {Rui Figueira} and Luis Martínez}
+        }
+        - tipo: "artículo"
+      autores: "Wiem Daoud-BenAmor, Diego García-Zamora,  Hela Moalla Frikha and Luis Martínez López"
+      titulo: "Assessment of pharmaceutical supply risk during COVID-19 crisis: A novel MCGDM approach based on minimum cost consensus models"
+      revista: "Computers & Industrial Engineering"
+      volumen: "213"
+      numero: ""
+      paginas: "111790"
+      doi: "https://doi.org/10.1016/j.cie.2025.111790"
+      oa: ""
+      impacto: "Q1 (IF: 6.5)"
+      bibtex: |
+        @article{wiemBWM,
+          title = {Assessment of pharmaceutical supply risk during COVID-19 crisis: A novel MCGDM approach based on minimum cost consensus models},
+          journal = {Computers & Industrial Engineering},
+          volume = {213},
+          pages = {111790},
+          year = {2026},
+          issn = {0360-8352},
+          doi = {https://doi.org/10.1016/j.cie.2025.111790},
+          url = {https://www.sciencedirect.com/science/article/pii/S0360835225009362},
+          author = {Wiem Daoud-BenAmor and Diego García-Zamora and Hela Moalla Frikha and Luis Martínez López},
+        }
 
     - tipo: "artículo"
       autores: "García-Zamora, D., Roldán López de Hierro, A.F. & Bustince, H."
