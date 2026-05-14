@@ -34,7 +34,7 @@ title: Investigación
                         <strong>{{ pub.autores }}</strong> ({{ bloque.anio }}). 
                         "{{ pub.titulo }}". 
                         {% if pub.tipo == "artículo" %}
-                            <i>{{ pub.revista }}</i>{% if pub.volumen %}, {{ pub.volumen }}{% endif %}{% if pub.numero %}({{ pub.numero }}){% endif %}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
+                            <i>{{ pub.revista }}</i>{% if pub.volumen %}, {{ pub.volumen }}{% endif %}{% if pub.numero %}({{ pub.numero }}){% endif %}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}{% if pub.impacto %}, {{ pub.impacto }}{% endif %}.
                         {% elsif pub.tipo == "congreso" %}
                             En <i>{{ pub.evento }}</i>. {{ pub.lugar }}.
                         {% elsif pub.tipo == "capítulo" %}

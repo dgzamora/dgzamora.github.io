@@ -42,7 +42,7 @@
           url = {https://www.sciencedirect.com/science/article/pii/S1568494626005429},
           author = {Bapi Dutta and Diego García-Zamora and José {Rui Figueira} and Luis Martínez}
         }
-        - tipo: "artículo"
+    - tipo: "artículo"
       autores: "Wiem Daoud-BenAmor, Diego García-Zamora,  Hela Moalla Frikha and Luis Martínez López"
       titulo: "Assessment of pharmaceutical supply risk during COVID-19 crisis: A novel MCGDM approach based on minimum cost consensus models"
       revista: "Computers & Industrial Engineering"
