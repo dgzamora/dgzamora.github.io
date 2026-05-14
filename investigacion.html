@@ -39,7 +39,7 @@ title: Investigación
                             En <i>{{ pub.evento }}</i>. {{ pub.lugar }}.
                         {% elsif pub.tipo == "capítulo" %}
                             En: <i>{{ pub.libro }}</i>. {{ pub.editorial }}{% if pub.paginas %}, pp. {{ pub.paginas }}{% endif %}.
-                        {% endif %}
+                        {% endif %}{% if pub.doi %} doi: {{ pub.doi }}{% endif %}
                         
                         <div class="badge-container">
                             <span class="badge-simple">{{ pub.tipo }}</span>
