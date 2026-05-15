@@ -1,4 +1,8 @@
 fotos:
+  - titulo: "Entrevista en UniRadio Jaén"
+    evento: "Día de Pi 2026- Universidad de Jaén"
+    tipo: "divulgacion" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/2026 PiDay.jpg"
 
   - titulo: "Instituto Superior Tecnico"
     evento: "Estancia en Lisboa 2025"
@@ -20,6 +24,11 @@ fotos:
     evento: "Congreso Español sobre Tecnologías y Lógica Fuzzy"
     tipo: "investigacion"
     imagen: "/assets/img/galeria/25estylf.jpeg"
+
+  - titulo: "Taller sobre algoritmo RSA"
+    evento: "Explora IES 2025"
+    tipo: "divulgacion" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/2025ExploraIES.jpg"
 
   - titulo: "Congreso FLINS 2023"
     evento: "International Conference on FLINS"
