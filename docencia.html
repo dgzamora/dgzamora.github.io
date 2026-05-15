@@ -29,7 +29,7 @@ title: Docencia
                                 {% elsif item.tipo == "tfg" %}<i class="fas fa-user-graduate"></i>
                                 {% else %}<i class="fas fa-chalkboard"></i>{% endif %}
                             </span>
-                            {{ item.titulo }}
+                            {{ item.titulo }}{% if item.horas %} ({{ item.horas }}) {% endif %}
                         </strong>
                         
                         <p class="pub-description" style="margin-top: 5px;">{{ item.subtitulo }}</p>
