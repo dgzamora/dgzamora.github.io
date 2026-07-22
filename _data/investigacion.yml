@@ -55,7 +55,7 @@
       paginas: "110000"
       doi: "https://doi.org/10.1016/j.fss.2026.110000"
       oa: ""
-      impacto: "Q1 (IF: 3.2)"
+      impacto: "Q1 (IF: 3.1)"
       bibtex: |
         @article{GARCIAZAMORA2026110000,
           title = {A hybrid approach for building fuzzy numbers based on data and expert knowledge},
@@ -312,6 +312,18 @@
 
 - anio: "2024"
   publicaciones:
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Álvaro Labella, Bapi Dutta, Luis Martínez"
+      titulo: "A fuzzy-set based formulation for Minimum Cost Consensus Models"
+      evento: "XX Conferencia de la Asociación Española para la Inteligencia Artificial (CAEPIA 2024)"
+      lugar: "A Coruña, España"
+      bibtex: |
+        @inproceedings{garcia2024estylfFZZMCC,
+          title={A fuzzy-set based formulation for Minimum Cost Consensus Models},
+          author={Garc{\'\i}a-Zamora, Diego and Labella, \'Alvaro and Dutta, Bapi and Mart{\'\i}nez, Luis},
+          booktitle={XX Conferencia de la Asociación Española para la Inteligencia Artificial},
+          year={2024}
+        }
     - tipo: "artículo"
       autores: "Hui-Hui Song, Bapi Dutta, Diego García-Zamora, Ying-Ming Wang, Luis Martínez"
       titulo: "Managing non-cooperative behaviors in consensus reaching process: A novel multi-stage linguistic LSGDM framework"
