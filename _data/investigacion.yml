@@ -1,5 +1,10 @@
 - anio: "2026"
   publicaciones:
+    - tipo: "congreso"
+      autores: "Francisca Zamora Zamora, Diego García-Zamora, Rosa M. Rodríguez"
+      titulo: "Escalas de derivación a la enfermera gestora de casos. Protocolo de revisión sistemática"
+      evento: "XVII Congreso Internacional de ASANEC"
+      lugar: "Jaén, España (27-29 de Mayo de 2026)"
     - tipo: "artículo"
       autores: "García-Zamora, D., Roldán López de Hierro, A. F., Fernández, J. y Bustince, H."
       titulo: "Type-(k1, k2) fuzzy subsethood measures and some construction methods"
