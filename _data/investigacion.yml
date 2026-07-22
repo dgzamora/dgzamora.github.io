@@ -1,6 +1,31 @@
 - anio: "2026"
   publicaciones:
     - tipo: "artículo"
+      autores: "García-Zamora, D., Figueira, J.R.  y Couceiro, M."
+      titulo: "A hybrid approach for building fuzzy numbers based on data and expert knowledge"
+      revista: "Fuzzy Sets and Systems"
+      volumen: "542"
+      numero: ""
+      paginas: "110000"
+      doi: "https://doi.org/10.1016/j.fss.2026.110000"
+      oa: ""
+      impacto: "Q1 (IF: 3.2)"
+      bibtex: |
+        @article{GARCIAZAMORA2026110000,
+          title = {A hybrid approach for building fuzzy numbers based on data and expert knowledge},
+          journal = {Fuzzy Sets and Systems},
+          volume = {542},
+          pages = {110000},
+          year = {2026},
+          issn = {0165-0114},
+          doi = {https://doi.org/10.1016/j.fss.2026.110000},
+          url = {https://www.sciencedirect.com/science/article/pii/S016501142600237X},
+          author = {Diego García-Zamora and José Rui Figueira and Miguel Couceiro},
+          keywords = {Fuzzy numbers, Deck of cards, Hybrid modeling, Data-driven membership construction, Convex fuzzy -means},
+          abstract = {This paper presents a hybrid socio-technical methodology for constructing fuzzy numbers from numerical data while incorporating expert knowledge through an interactive Deck of Cards (DoC) process. The approach extends the existing DoC membership function construction framework by introducing a data-driven pipeline based on a convex version of Fuzzy C -Means, in which each computational step produces intermediate outputs that are translated into card-based structures for expert validation and tuning. The proposed method ensures interpretability, adaptability, and consistency between empirical evidence and expert semantics.}
+          }
+    
+    - tipo: "artículo"
       autores: "García-Zamora, D., Roldán López de Hierro, A. F. y Bustince, H."
       titulo: "Extended dissimilarities and d-Choquet integral for fuzzy numbers"
       revista: "Fuzzy Sets and Systems"
