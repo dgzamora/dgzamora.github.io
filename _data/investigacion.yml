@@ -1,6 +1,28 @@
 - anio: "2026"
   publicaciones:
     - tipo: "artículo"
+      autores: " "
+      titulo: "Type-(k1, k2) fuzzy subsethood measures and some construction methods"
+      revista: "Fuzzy Sets and Systems"
+      volumen: "541"
+      numero: ""
+      paginas: "109939"
+      doi: "https://doi.org/10.1016/j.fss.2026.109939"
+      oa: ""
+      impacto: "Q1 (IF: 3.1)"
+      bibtex: |
+        @article{GARCIAZAMORA2026109939,
+          title = {Type-(k1, k2) fuzzy subsethood measures and some construction methods},
+          journal = {Fuzzy Sets and Systems},
+          volume = {541},
+          pages = {109939},
+          year = {2026},
+          issn = {0165-0114},
+          doi = {https://doi.org/10.1016/j.fss.2026.109939},
+          url = {https://www.sciencedirect.com/science/article/pii/S0165011426001776},
+          author = {Diego García-Zamora and Antonio Francisco {Roldán López de Hierro} and Javier Fernández and Humberto Bustince},
+          }
+    - tipo: "artículo"
       autores: "García-Zamora, D., Dutta, B., and Figueira, J.R. "
       titulo: "Consensus-based Deck of Cards Method for Constructing Fuzzy Linguistic Scales"
       revista: "Group Decision and Negotiation"

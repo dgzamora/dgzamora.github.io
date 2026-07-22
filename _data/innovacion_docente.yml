@@ -1,6 +1,12 @@
 secciones:
   - anio: "2025-2026"
     meritos:
+      - titulo: 'Coordinación del proyecto "Matemática Aplicada en clave digital: Microaprendizaje en Modelos matemáticos para la empresa" (Programa NEOTEACH)'
+        subtitulo: "Universidad de Jaén"
+        tipo: "proyecto"
+        etiqueta: "Proyecto de Innovación Docente"
+        guia: ""
+        materiales: ""
       - titulo: 'Castillo-González, N. y García-Zamora, D. (2025). "Explicar para comprender: mirada pedagógica al aprendizaje y la evaluación en matemáticas universitarias en la era de la Inteligencia Artificial"'
         subtitulo: "VII Congreso Internacional de Innovación Docente en Educación Superior, Almería (Virtual)"
         tipo: "congreso"
