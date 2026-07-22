@@ -1,6 +1,30 @@
 - anio: "2026"
   publicaciones:
     - tipo: "artículo"
+      autores: "García-Zamora, D., Dutta, B., and Figueira, J.R. "
+      titulo: "Consensus-based Deck of Cards Method for Constructing Fuzzy Linguistic Scales"
+      revista: "Group Decision and Negotiation"
+      volumen: "35"
+      numero: "3"
+      paginas: "57"
+      doi: "https://doi.org/10.1007/s10726-026-10008-x"
+      oa: ""
+      impacto: "Q1 (IF: 2.8)"
+      bibtex: |
+        @article{Garcia-Zamora2026,
+          author   = {García-Zamora, Diego and Dutta, Bapi and Figueira, José Rui},
+          title    = {Consensus-based Deck of Cards Method for Constructing Fuzzy Linguistic Scales},
+          journal  = {Group Decision and Negotiation},
+          year     = {2026},
+          volume   = {35},
+          number   = {3},
+          pages    = {57},
+          issn     = {1572-9907},
+          doi      = {10.1007/s10726-026-10008-x},
+          url      = {https://doi.org/10.1007/s10726-026-10008-x}
+        }
+        
+    - tipo: "artículo"
       autores: "García-Zamora, D., Figueira, J.R.  y Couceiro, M."
       titulo: "A hybrid approach for building fuzzy numbers based on data and expert knowledge"
       revista: "Fuzzy Sets and Systems"
