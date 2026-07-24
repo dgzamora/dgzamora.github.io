@@ -1,5 +1,25 @@
 - anio: "2026"
   publicaciones:
+    - tipo: "capítulo"
+      autores: "Luis Martínez, Rosa M. Rodríguez, Álvaro Labella and Diego García-Zamora"
+      titulo: "Chapter 56 - COPRAS: Complex proportional assessment method for multi-attribute decision-making"
+      libro: "Encyclopedia of Multi-Attribute Decision Making (MADM)"
+      paginas: "781-791"
+      editorial: "Morgan Kaufmann"
+      doi: "https://doi.org/10.1016/B978-0-443-33275-3.00003-8"
+      bibtex: |
+        @incollection{MARTINEZ2026781,
+          title = {Chapter 56 - COPRAS: Complex proportional assessment method for multi-attribute decision-making},
+          editor = {Gholamreza Haseli and Muhammet Deveci and Mostafa Hajiaghaei-Keshteli},
+          booktitle = {Encyclopedia of Multi-Attribute Decision Making (MADM)},
+          publisher = {Morgan Kaufmann},
+          pages = {781-791},
+          year = {2026},
+          isbn = {978-0-443-33275-3},
+          doi = {https://doi.org/10.1016/B978-0-443-33275-3.00003-8},
+          author = {Luis Martínez and Rosa M. Rodríguez and Álvaro Labella and Diego García-Zamora},
+          } 
+
     - tipo: "congreso"
       autores: "Francisca Zamora Zamora, Diego García-Zamora, Rosa M. Rodríguez"
       titulo: "Escalas de derivación a la enfermera gestora de casos. Protocolo de revisión sistemática"

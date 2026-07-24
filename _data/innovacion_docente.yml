@@ -24,7 +24,7 @@ secciones:
         tipo: "libro"
         etiqueta: "Capítulo de Libro"
         guia: ""
-        materiales: ""
+        materiales: "https://doi.org/10.14679/4602"
 
   - anio: "2024-2025"
     meritos:
