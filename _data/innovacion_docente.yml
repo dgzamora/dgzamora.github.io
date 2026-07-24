@@ -1,6 +1,30 @@
 secciones:
   - anio: "2025-2026"
     meritos:
+      - titulo: 'Castillo-González, N. & García-Zamora, D. (2026). “Transformar la Evaluación en Matemática Universitaria en Ingeniería: Innovación Educativa y Aprovechamiento formativo de la Inteligencia Artificial”'
+        subtitulo: " III Congreso Internacional Futuro de la tecnología en Educación, FUTUREDUCA 2026, Universidad de Sevilla y Universidad Internacional de la Rioja."
+        tipo: "congreso"
+        etiqueta: "Comunicación Oral"
+        guia: ""
+        materiales: ""
+      - titulo: 'García-Zamora, D., & Castillo-González, N. (2026). “Evaluación de la competencia matemática de la IA generativa en pruebas de acceso a la Universidad: Análisis del desempeño de Gemini 3 Pro en la PEVAU de Andalucía 2025”'
+        subtitulo: " III Congreso Internacional Futuro de la tecnología en Educación, FUTUREDUCA 2026, Universidad de Sevilla y Universidad Internacional de la Rioja."
+        tipo: "congreso"
+        etiqueta: "Comunicación Oral"
+        guia: ""
+        materiales: ""
+      - titulo: 'Castillo-González, N. y García-Zamora, D. (2026). " Replantear la Evaluación en Matemática Universitaria en Ingeniería: Innovación Docente y uso formativo de la Inteligencia Artificial."'
+        subtitulo: "Innovación Docente y Prácticas Educativas con Inteligencia Artificial.  Dykinson (peer review). ISBN 979-13-7006-998-8."
+        tipo: "libro"
+        etiqueta: "Capítulo de Libro"
+        guia: ""
+        materiales: ""
+      - titulo: 'García-Zamora, D., & Castillo-González, N. (2026). " Evaluación del desempeño de grandes modelos del lenguaje en pruebas de matemáticas de nivel universitario."'
+        subtitulo: "Aprender en la Era de la Inteligencia Artificial: Evaluación, Ética y Nuevos Procesos Educativos. Dykinson.  ISBN 978-84-1177-232-7."
+        tipo: "libro"
+        etiqueta: "Capítulo de Libro"
+        guia: ""
+        materiales: ""
       - titulo: 'Coordinación del proyecto "Matemática Aplicada en clave digital: Microaprendizaje en Modelos matemáticos para la empresa" (Programa NEOTEACH)'
         subtitulo: "Universidad de Jaén"
         tipo: "proyecto"
