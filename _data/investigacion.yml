@@ -1,6 +1,27 @@
 - anio: "2026"
   publicaciones:
     - tipo: "artículo"
+      autores: "Labella, A., García-Zamora, D., Dutta, B. and Martínez, M."
+      titulo: "A Consensus-Based Best–Worst Method for Linguistic Multi-Criteria Group Decision-Making"
+      revista: "Informatica"
+      volumen: ""
+      numero: ""
+      paginas: "1--36"
+      doi: "10.15388/26-INFOR637"
+      oa: "https://doi.org/10.15388/26-INFOR637"
+      impacto: "Q1 (IF: 2.8)"
+      bibtex: |
+        @article{
+        author = {Álvaro Labella and Diego García-Zamora and Bapi Dutta and Luis Martínez},
+        title = {A Consensus-Based Best–Worst Method for Linguistic Multi-Criteria Group Decision-Making},
+        journal = {Informatica},
+        year = {2026},
+        pages = {1--36},
+        doi = {10.15388/26-INFOR637},
+        issn = {0868-4952},
+        publisher = {Vilnius University Institute of Data Science and Digital Technologies}
+        }
+    - tipo: "artículo"
       autores: "García-Zamora, D., Figueira, J.R.  y Couceiro, M."
       titulo: "A hybrid approach for building fuzzy numbers based on data and expert knowledge"
       revista: "Fuzzy Sets and Systems"
