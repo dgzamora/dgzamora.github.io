@@ -1,5 +1,23 @@
 - anio: "2026"
   publicaciones:
+    - tipo: "congreso"
+      autores: "Dutta, Bapi and García-Zamora, Diego and Rodríguez, Rosa M. and Martínez, Luis"
+      titulo: "A Fairness-Aware Minimum Cost Consensus Model"
+      evento: "2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)"
+      lugar:  "Maastricht, Netherlands, 21-26 June 2026"
+      doi: "10.1109/FUZZ69877.2026.11626438"
+      bibtex: |
+        @INPROCEEDINGS{11626438,
+          author={Dutta, Bapi and García-Zamora, Diego and Rodríguez, Rosa M. and Martínez, Luis},
+          booktitle={2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
+          title={A Fairness-Aware Minimum Cost Consensus Model}, 
+          year={2026},
+          volume={},
+          number={},
+          pages={1-6},
+          keywords={Modeling;Costing;Costs;Decision making;Printing;Equations;Optimization;group decision-making;minimum cost consensus model;fairness},
+          doi={10.1109/FUZZ69877.2026.11626438}}
+
     - tipo: "artículo"
       autores: "Labella, A., García-Zamora, D., Dutta, B. and Martínez, M."
       titulo: "A Consensus-Based Best–Worst Method for Linguistic Multi-Criteria Group Decision-Making"
@@ -8,7 +26,6 @@
       numero: ""
       paginas: "1--36"
       doi: "10.15388/26-INFOR637"
-      oa: "https://doi.org/10.15388/26-INFOR637"
       impacto: "Q1 (IF: 2.8)"
       bibtex: |
         @article{
