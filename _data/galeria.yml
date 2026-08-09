@@ -1,4 +1,8 @@
 fotos:
+  - titulo: "Estancia Erasmus en Orebro Universiy"
+    evento: "BIP International Perspectives in Higher Education 2026"
+    tipo: "docencia" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/Orebro2026.jpg"
   - titulo: "Entrevista en UniRadio Jaén"
     evento: "Día de Pi 2026- Universidad de Jaén"
     tipo: "divulgacion" # <--- Nuevo campo

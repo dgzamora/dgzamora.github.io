@@ -1,5 +1,76 @@
 - anio: "2026"
   publicaciones:
+    - tipo: "capítulo"
+      autores: "Luis Martínez, Rosa M. Rodríguez, Álvaro Labella and Diego García-Zamora"
+      titulo: "Chapter 56 - COPRAS: Complex proportional assessment method for multi-attribute decision-making"
+      libro: "Encyclopedia of Multi-Attribute Decision Making (MADM)"
+      paginas: "781-791"
+      editorial: "Morgan Kaufmann"
+      doi: "https://doi.org/10.1016/B978-0-443-33275-3.00003-8"
+      bibtex: |
+        @incollection{MARTINEZ2026781,
+          title = {Chapter 56 - COPRAS: Complex proportional assessment method for multi-attribute decision-making},
+          editor = {Gholamreza Haseli and Muhammet Deveci and Mostafa Hajiaghaei-Keshteli},
+          booktitle = {Encyclopedia of Multi-Attribute Decision Making (MADM)},
+          publisher = {Morgan Kaufmann},
+          pages = {781-791},
+          year = {2026},
+          isbn = {978-0-443-33275-3},
+          doi = {https://doi.org/10.1016/B978-0-443-33275-3.00003-8},
+          author = {Luis Martínez and Rosa M. Rodríguez and Álvaro Labella and Diego García-Zamora},
+          } 
+
+    - tipo: "congreso"
+      autores: "Francisca Zamora Zamora, Diego García-Zamora, Rosa M. Rodríguez"
+      titulo: "Escalas de derivación a la enfermera gestora de casos. Protocolo de revisión sistemática"
+      evento: "XVII Congreso Internacional de ASANEC"
+      lugar: "Jaén, España (27-29 de Mayo de 2026)"
+    - tipo: "artículo"
+      autores: "García-Zamora, D., Roldán López de Hierro, A. F., Fernández, J. y Bustince, H."
+      titulo: "Type-(k1, k2) fuzzy subsethood measures and some construction methods"
+      revista: "Fuzzy Sets and Systems"
+      volumen: "541"
+      numero: ""
+      paginas: "109939"
+      doi: "https://doi.org/10.1016/j.fss.2026.109939"
+      oa: ""
+      impacto: "Q1 (IF: 3.1)"
+      bibtex: |
+        @article{GARCIAZAMORA2026109939,
+          title = {Type-(k1, k2) fuzzy subsethood measures and some construction methods},
+          journal = {Fuzzy Sets and Systems},
+          volume = {541},
+          pages = {109939},
+          year = {2026},
+          issn = {0165-0114},
+          doi = {https://doi.org/10.1016/j.fss.2026.109939},
+          url = {https://www.sciencedirect.com/science/article/pii/S0165011426001776},
+          author = {Diego García-Zamora and Antonio Francisco {Roldán López de Hierro} and Javier Fernández and Humberto Bustince},
+          }
+    - tipo: "artículo"
+      autores: "García-Zamora, D., Dutta, B., and Figueira, J.R. "
+      titulo: "Consensus-based Deck of Cards Method for Constructing Fuzzy Linguistic Scales"
+      revista: "Group Decision and Negotiation"
+      volumen: "35"
+      numero: "3"
+      paginas: "57"
+      doi: "https://doi.org/10.1007/s10726-026-10008-x"
+      oa: ""
+      impacto: "Q1 (IF: 2.8)"
+      bibtex: |
+        @article{Garcia-Zamora2026,
+          author   = {García-Zamora, Diego and Dutta, Bapi and Figueira, José Rui},
+          title    = {Consensus-based Deck of Cards Method for Constructing Fuzzy Linguistic Scales},
+          journal  = {Group Decision and Negotiation},
+          year     = {2026},
+          volume   = {35},
+          number   = {3},
+          pages    = {57},
+          issn     = {1572-9907},
+          doi      = {10.1007/s10726-026-10008-x},
+          url      = {https://doi.org/10.1007/s10726-026-10008-x}
+        }
+        
     - tipo: "artículo"
       autores: "Labella, A., García-Zamora, D., Dutta, B. and Martínez, M."
       titulo: "A Consensus-Based Best–Worst Method for Linguistic Multi-Criteria Group Decision-Making"
@@ -30,7 +101,7 @@
       paginas: "110000"
       doi: "https://doi.org/10.1016/j.fss.2026.110000"
       oa: ""
-      impacto: "Q1 (IF: 3.2)"
+      impacto: "Q1 (IF: 3.1)"
       bibtex: |
         @article{GARCIAZAMORA2026110000,
           title = {A hybrid approach for building fuzzy numbers based on data and expert knowledge},
@@ -287,6 +358,18 @@
 
 - anio: "2024"
   publicaciones:
+    - tipo: "congreso"
+      autores: "Diego García-Zamora, Álvaro Labella, Bapi Dutta, Luis Martínez"
+      titulo: "A fuzzy-set based formulation for Minimum Cost Consensus Models"
+      evento: "XX Conferencia de la Asociación Española para la Inteligencia Artificial (CAEPIA 2024)"
+      lugar: "A Coruña, España"
+      bibtex: |
+        @inproceedings{garcia2024estylfFZZMCC,
+          title={A fuzzy-set based formulation for Minimum Cost Consensus Models},
+          author={Garc{\'\i}a-Zamora, Diego and Labella, \'Alvaro and Dutta, Bapi and Mart{\'\i}nez, Luis},
+          booktitle={XX Conferencia de la Asociación Española para la Inteligencia Artificial},
+          year={2024}
+        }
     - tipo: "artículo"
       autores: "Hui-Hui Song, Bapi Dutta, Diego García-Zamora, Ying-Ming Wang, Luis Martínez"
       titulo: "Managing non-cooperative behaviors in consensus reaching process: A novel multi-stage linguistic LSGDM framework"
