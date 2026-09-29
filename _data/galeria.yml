@@ -1,4 +1,8 @@
 fotos:
+  - titulo: "Programa UniRadio Jaén: Noche Europea de los Investigadores"
+    evento: "European Researchers Night 2026"
+    tipo: "divulgación" # <--- Nuevo campo
+    imagen: "/assets/img/galeria/2026 ERN.jpg"
   - titulo: "Estancia Erasmus en Orebro Universiy"
     evento: "BIP International Perspectives in Higher Education 2026"
     tipo: "docencia" # <--- Nuevo campo
